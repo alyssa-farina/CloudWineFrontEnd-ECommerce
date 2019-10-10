@@ -1,0 +1,36 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Thing 1",
+        "description": "Description",
+        "img": "https://via.placeholder.com/300",
+        "price": 2.5
+      },
+  
+      {
+        "id": 2,
+        "name": "Thing 2",
+        "description": "Description",
+        "img": "https://via.placeholder.com/300",
+        "price": 2.5
+      },
+  
+      {
+        "id": 3,
+        "name": "Thing 3",
+        "description": "Description",
+        "img": "https://via.placeholder.com/300",
+        "price": 2.5
+      },
+  
+      {
+        "id": 4,
+        "name": "Thing 4",
+        "description": "Description",
+        "img": "https://via.placeholder.com/300",
+        "price": 2.5
+      }
+    ]
+  }
+  

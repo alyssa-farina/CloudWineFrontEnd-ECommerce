@@ -1,13 +1,244 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  padding: 0;
+  width: 100%;
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.product-list-item {
+  padding: 20px 30px;
+  margin: 10px;
+  width: 345px;
+
+}
+
+.page-container {
+  margin: 10px auto;
+  background-color: rgb(129, 63, 63);
+
+  position: relative;
+}
+
+
+  .nav-spacing {
+      /* margin-left : 10px; */
+      /* margin-right : 10px; */
+      color: #c3f8ff;
+      padding:0 12px;
+      line-height:60px;   
+  }
+
+  .nav-spacing-name {
+    margin-left : 10px;
+    margin-right : -15px; 
+    color: #b82680;
+    padding: 0px;
+    line-height:60px;  
+  }
+
+  .button-space {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .bold-text {
+    font-weight: bold;
+  }
+
+  .scooter-img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+  }
+
+  .text-center {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* .jumbo-image {
+    background-image: url("https://images.pexels.com/photos/1132269/pexels-photo-1132269.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    display: block;
+    margin-left: -16vw;
+    margin-right: -16vw;
+    height: 550px;
+  } */
+
+ 
+    .jumbo-image {
+      background-image: url("https://images.pexels.com/photos/1132269/pexels-photo-1132269.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+      background-size: cover; 
+      height: 550px;
+      padding-left: 100px;
+      padding-top: 100px;
+      display: block;
+      border-radius: 0px;
+      
+    }
+
+
+  .logo {
+    font-family: 'Playfair Display', serif;
+    /* font-style: italic; */
+    font-size: 42px;
+    margin-left: 45px;
+    color: #292929;
+    padding: 0px;
+  }
+
+  .bold {
+    font-style: bold;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #292929;
+  }
+
+  .jumbo-head-text {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #fff;
+  }
+
+  .jumbo-body-text {
+    font-style: bold;
+    color: #fff;
+  }
+
+  .white-button {
+    background-color: #fff;
+    color: #292929;
+    border-radius: 0px;
+  }
+
+  .white-button:hover {
+    background-color: #292929;
+    color: #fff;
+  }
+
+  .black-button {
+    background-color: #292929;
+    color: #fff;
+    border-radius: 0px;
+    border-color: #292929;
+  }
+
+  .black-button:hover {
+    background-color: #fff;
+    color: #292929;
+     border-color: #292929;
+  }
+
+  .pop-up {
+    border-radius: 0px;
+    width: 410px;
+    margin-top: 250px;
+    /* max-width: 50%; */
+  }
+
+  .btn-circle {
+    width: 26px;
+    height: 26px;
+    padding: 1px 0px;
+    border-radius: 15px;
+    font-size: 10px;
+    text-align: center;
+    line-height: .7;
+}
+
+.cart-button {
+  background-color: #fff;
+  color: #292929;
+  border-radius: 0px;
+  border: none;
+  border-radius: 15px;
+}
+
+.cart-button:hover {
+  background-color: #292929;
+  color: #fff;
+}
+
+.right-button {
+  float: right;
+  margin-top: 15px;
+}
+
+.quantity-buttons {
+  margin-left: 10px; 
+  font-size: 16px;
+  text-align: center;
+  line-height: .5;
+  width: 32px;
+  height: 22px;
+  background-color: #fff;
+  color: #292929;
+  border-radius: 0px;
+}
+  
+.quantity-buttons:hover {
+  background-color: #292929;
+    color: #fff;
+}
+
+.top-spacing {
+  margin-top: 15px;
+}
+
+.baby-pic {
+  width: 500px;
+  height: 500px;
+}
+
+.center-button {
+  margin: 0 auto;
+    display: block;
+}
+
+.center-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: -150px;
+}
+
+.lower-content {
+  margin-top: 150px;
+}
+
+.lower-content-50 {
+  margin-top: 50px;
+}
+
+#navbar-custom {
+  background-color:black;
+}
+
+.cart-spacing {
+  margin-top: 100px;
+}
+
+.inline {
+  float: left;
+}
+
+.left-margin {
+  /* margin-left: 20px; */
+  margin-top: 20px;
 }
