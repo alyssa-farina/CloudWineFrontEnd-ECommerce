@@ -23,6 +23,7 @@ code {
   padding: 20px 30px;
   margin: 10px;
   width: 345px;
+  color: maroon;
 
 }
 
@@ -30,6 +31,7 @@ code {
   margin: 10px auto;
   background-color: rgb(126, 38, 79);
   position: relative;
+  color: black;
 }
 
 
@@ -147,7 +149,7 @@ code {
     width: 410px;
     margin-top: 250px;
     background-color: #b82680;
-    color: white;
+    color: black;
     /* max-width: 50%; */
   }
 
@@ -241,3 +243,11 @@ code {
   /* margin-left: 20px; */
   margin-top: 20px;
 }
+h5 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+

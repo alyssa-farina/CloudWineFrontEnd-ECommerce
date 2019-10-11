@@ -21,7 +21,7 @@ class Login extends Component {
     console.log(this.state);
     let a = this.props.userLoginFetch(this.state);
     console.log(this.props.history);
-    let b = this.props.history.push('/');
+    let b = this.props.history.push('/home');
     return a && b;
   };
 

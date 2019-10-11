@@ -9,10 +9,12 @@ import SignUpPage from './pages/signuppage';
 import LoginPage from './pages/loginpage';
 import ProductsPage from './pages/productspage';
 import ReturnsPage from './pages/returnspage';
+import QuizPage from './quizpage';
 
 
 const Router = () => (
   <Switch>
+    <Route exact path="/" component={QuizPage} />
     <Route exact path="/home" component={HomePage} />
     <Route exact path="/cart" component={CartPage} />
     <Route exact path="/checkout" component={CheckoutPage} />

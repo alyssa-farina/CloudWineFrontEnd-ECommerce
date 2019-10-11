@@ -43,7 +43,7 @@ class ProductListItem extends React.Component {
           </ModalHeader>
           <ModalBody>
             <img
-              height={250}
+              height={300}
               title={this.props.product.name}
               src={this.props.product.img}
               alt={this.props.product.name}

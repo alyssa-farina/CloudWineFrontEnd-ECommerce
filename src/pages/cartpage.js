@@ -22,7 +22,7 @@ class CartPage extends React.Component {
             </Row>
             <Row>
               <Col sm="12" md={{ size: 6, offset: 3 }}>
-                <Link to="/">
+                <Link to="/home">
                   <Button className="black-button center-button">
                     Continue Shopping
                   </Button>

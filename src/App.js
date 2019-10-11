@@ -25,6 +25,7 @@ import productList from './features/product-list';
 import ReturnsPage from './pages/returnspage'
 
 
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -90,7 +91,7 @@ class App extends Component {
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem className="nav-spacing">
-                <NavLink tag={RRNavLink} to="/">
+                <NavLink tag={RRNavLink} to="/home">
                   HOME
                 </NavLink>
               </NavItem>
@@ -109,10 +110,7 @@ class App extends Component {
                     SIGN IN / REGISTER
                   </NavLink>
                 )}
-                   <NavLink tag={RRNavLink} to="/products">
-                   Products
-                  </NavLink>
-                )}
+                  
            
               </NavItem>
               {this.props.currentUser.username ? (
@@ -128,6 +126,11 @@ class App extends Component {
                         <DropdownItem header>
                           Welcome, {this.props.currentUser.username}
                         </DropdownItem>
+                         <DropdownItem header>
+                         <NavLink tag={RRNavLink} to="/products">
+                   Products
+                  </NavLink>
+                                    </DropdownItem>
                         <DropdownItem onClick={this.handleClick}>
                           Log Out
                         </DropdownItem>
@@ -143,6 +146,7 @@ class App extends Component {
           </Collapse>
         </Navbar>
         <Router />
+       
       </div>
     );
   }
