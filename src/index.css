@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  /* background-image: url("https://data.whicdn.com/images/258515697/original.gif"); */
+  background-size: cover;
+  /* background-image: linear-gradient(to right, rgb(175, 51, 51) , plum); */
   
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -80,9 +83,9 @@ code {
 
  
     .jumbo-image {
-      background-image: url("https://images.pexels.com/photos/1132269/pexels-photo-1132269.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+      background-image: url("https://thumbs.gfycat.com/BoldFlusteredIrishdraughthorse-size_restricted.gif");
       background-size: cover; 
-      height: 550px;
+      height: 850px;
       padding-left: 100px;
       padding-top: 100px;
       display: block;
@@ -90,12 +93,16 @@ code {
       
     }
 
+    .shoppingheader {
+      text-align: center;
+    }
+
 
   .logo {
-    font-family: 'Playfair Display', serif;
+    font-family: cursive;
     /* font-style: italic; */
-    font-size: 42px;
-    margin-left: 45px;
+    font-size: 60px;
+    margin-left: 8px;
     color: #292929;
     padding: 0px;
   }
@@ -110,25 +117,25 @@ code {
   }
 
   .jumbo-head-text {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    color: #fff;
+    font-family: cursive;
+    font-style: oblique;
+    color: rgb(216, 0, 0);
   }
 
   .jumbo-body-text {
     font-style: bold;
-    color: #fff;
+    color: rgb(50, 24, 24);
   }
 
   .white-button {
-    background-color: #fff;
-    color: #292929;
+    background-color: rgb(216, 148, 148);
+    color: #870754;
     border-radius: 0px;
   }
 
   .white-button:hover {
     background-color: #292929;
-    color: #fff;
+    color: rgb(147, 235, 255);
   }
 
   .black-button {
@@ -162,7 +169,7 @@ code {
 }
 
 .cart-button {
-  background-color: #fff;
+  background-image: url("https://dejpknyizje2n.cloudfront.net/marketplace/products/shopping-cart-with-a-lot-of-wine-sticker-1564080418.2492566.png");
   color: #292929;
   border-radius: 0px;
   border: none;

@@ -6,11 +6,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import App from './App';
 import store from './config/store';
+import productList from './features/product-list';
 
 const app = (
   <Provider store={store}>
     <BrowserRouter>
       <App />
+      <productList/>
     </BrowserRouter>
   </Provider>
 );

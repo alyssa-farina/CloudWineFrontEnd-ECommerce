@@ -62,7 +62,7 @@ export const getProfileFetch = () => {
         .then(res => res.json())
         .then(data => {
           if (data.message) {
-            alert('Username or password incorrect');
+            alert('Uh Oh, have you been sipping on some wine? Your username or password is incorrect🤦🏻‍♀️');
           } else {
             localStorage.setItem('token', data.jwt);
             dispatch(loginUser(data.user));

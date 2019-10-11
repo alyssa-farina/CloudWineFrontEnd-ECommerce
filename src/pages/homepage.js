@@ -7,16 +7,15 @@ export default function Homepage(props) {
     <div>
       <div>
         <Jumbotron className="jumbo-image small-jumbo-image">
-          <h1 className="display-3  jumbo-head-text">Handmade Jewelry</h1>
+          <h1 className="display-3  jumbo-head-text">Welcome</h1>
           <p className="lead jumbo-body-text">
-            Created to elevate your wardrobe and your mood.
+            Shopping & Wine Make Everything Fine 🥂.
           </p>
           <hr className="my-2" />
         </Jumbotron>
       </div>
       <Container>
         <Col>
-          <ProductList />
         </Col>
       </Container>
     </div>

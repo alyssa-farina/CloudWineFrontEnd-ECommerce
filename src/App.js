@@ -21,6 +21,7 @@ import {
   Jumbotron
 } from 'reactstrap';
 import logo from './logo2.png';
+import productList from './features/product-list';
 
 
 class App extends Component {
@@ -76,17 +77,19 @@ class App extends Component {
           <NavbarBrand>
             <NavItem tag={RRNavLink} to="/" className="logo">
               <img src={logo} alt="logo" height="60" />
-              Cloud Wine 🍷☁️
+              Cloud Wine 
+              <h6 className="shopping">Shopping & Wine Make Everything Fine</h6>
             </NavItem>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem className="nav-spacing">
-                <NavLink tag={RRNavLink} to="/home">
+                <NavLink tag={RRNavLink} to="/">
                   HOME
                 </NavLink>
               </NavItem>
+              
               <NavItem className="nav-spacing">
                 {this.props.currentUser.username ? (
                   <NavLink tag={RRNavLink} to="/cart">
@@ -99,6 +102,10 @@ class App extends Component {
                 ) : (
                   <NavLink tag={RRNavLink} to="/login">
                     SIGN IN / REGISTER
+                  </NavLink>
+                )}
+                   <NavLink tag={RRNavLink} to="/products">
+                   Products
                   </NavLink>
                 )}
            
@@ -122,6 +129,9 @@ class App extends Component {
                         <DropdownItem onClick={this.handleClick}>
                           Log Out
                         </DropdownItem>
+                        <DropdownItem onClick={this.handleRedirectClick}>
+                          Returns Info
+                        </DropdownItem>
                       </DropdownMenu>
                     </Dropdown>
                   </NavItem>
@@ -130,7 +140,6 @@ class App extends Component {
             </Nav>
           </Collapse>
         </Navbar>
-
         <Router />
       </div>
     );
