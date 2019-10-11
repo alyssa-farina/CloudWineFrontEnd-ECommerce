@@ -22,6 +22,7 @@ import {
 } from 'reactstrap';
 import logo from './logo2.png';
 import productList from './features/product-list';
+import ReturnsPage from './pages/returnspage'
 
 
 class App extends Component {
@@ -63,6 +64,10 @@ class App extends Component {
     window.location.reload();
     return a && b && c;
   };
+
+  handleRedirectClick = e => {
+    window.location.href="/returns"
+  }
 
   render() {
     console.log(this.state)
@@ -109,9 +114,6 @@ class App extends Component {
                   </NavLink>
                 )}
            
-                 <NavLink tag={RRNavLink} to="/quizpage">
-                   
-                  </NavLink>
               </NavItem>
               {this.props.currentUser.username ? (
                 <NavLink>

@@ -1,7 +1,6 @@
 import React from 'react';
 
 import fetchApi from '../../modules/fetch-api';
-
 import { Container, Row, Col } from 'reactstrap';
 
 class Order extends React.Component {
@@ -10,7 +9,7 @@ class Order extends React.Component {
   };
 
   componentDidMount() {
-    fetchApi('get', `'http://localhost:3000/orders'`).then(
+    fetchApi('get', `http://localhost:3000/orders/`).then(
       json => {
         this.setState({
           order: json
@@ -26,7 +25,7 @@ class Order extends React.Component {
       <Container>
         <Row>
           <Col sm="12" md={{ size: 6, offset: 3 }}>
-            <h3 className="text-center">Hooray, your order is on its way!</h3>
+            <h3 className="text-center">SipSip Hooray!!! Your order is on its way!</h3>
             <h4>
               Order Confirmation Number:{' '}
               {Math.floor(Math.random() * 100000 + 1)}
@@ -36,7 +35,7 @@ class Order extends React.Component {
         <Row>
           <Col sm="12" md={{ size: 6, offset: 3 }}>
             <img
-          
+              src={"https://media2.giphy.com/media/3oz8xEXgWWnUXIQI4o/giphy.gif"}
               alt="man on scooter"
               className="scooter-img"
             />

@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  /* background-image: url("https://data.whicdn.com/images/258515697/original.gif"); */
+  /* background-image: url("https://i.pinimg.com/originals/19/39/bf/1939bfa036f576c8168edfd9c35fac70.jpg"); */
   background-size: cover;
   /* background-image: linear-gradient(to right, rgb(175, 51, 51) , plum); */
   
@@ -10,6 +10,7 @@ body {
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 
 }
 
@@ -27,21 +28,19 @@ code {
 
 .page-container {
   margin: 10px auto;
-  background-color: rgb(129, 63, 63);
-
+  background-color: rgb(126, 38, 79);
   position: relative;
 }
 
 
   .nav-spacing {
-      /* margin-left : 10px; */
-      /* margin-right : 10px; */
       color: #c3f8ff;
       padding:0 12px;
-      line-height:60px;   
+      line-height:40px;   
   }
 
   .nav-spacing-name {
+    text-align: center;
     margin-left : 10px;
     margin-right : -15px; 
     color: #b82680;
@@ -72,14 +71,6 @@ code {
     justify-content: center;
   }
 
-  /* .jumbo-image {
-    background-image: url("https://images.pexels.com/photos/1132269/pexels-photo-1132269.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-size: cover;
-    display: block;
-    margin-left: -16vw;
-    margin-right: -16vw;
-    height: 550px;
-  } */
 
  
     .jumbo-image {
@@ -128,7 +119,7 @@ code {
   }
 
   .white-button {
-    background-color: rgb(216, 148, 148);
+    background-color: rgba(233, 254, 255, 0.454);
     color: #870754;
     border-radius: 0px;
   }
@@ -155,6 +146,8 @@ code {
     border-radius: 0px;
     width: 410px;
     margin-top: 250px;
+    background-color: #b82680;
+    color: white;
     /* max-width: 50%; */
   }
 
@@ -169,7 +162,6 @@ code {
 }
 
 .cart-button {
-  background-image: url("https://dejpknyizje2n.cloudfront.net/marketplace/products/shopping-cart-with-a-lot-of-wine-sticker-1564080418.2492566.png");
   color: #292929;
   border-radius: 0px;
   border: none;
