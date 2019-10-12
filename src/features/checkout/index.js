@@ -57,7 +57,7 @@ function Checkout(props) {
               <tr>
                 <td className="bold-text">Total Price:</td>
                 <td />
-                {/* <td className="bold-text">${sum.toFixed(2)}</td> */}
+                <td className="bold-text">${sum.toFixed(2)}</td>
               </tr>
             </tbody>
           </Table>
