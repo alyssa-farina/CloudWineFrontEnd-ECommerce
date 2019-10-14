@@ -7,7 +7,7 @@ export default class Homepage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectValue: ""
+      selectName: ""
     };
 
     this.handleDropdownChange = this.handleDropdownChange.bind(this);
@@ -17,7 +17,7 @@ export default class Homepage extends React.Component {
  handleDropdownChange = e => {
    e.preventDefault();
    this.setState({ 
-     selectValue: e.target.value
+     selectValue: [e.target.name]
    })
  }
 render(){
@@ -30,13 +30,13 @@ render(){
       <label>
         Sort by Category:
         <select id="dropdown" onChange={this.handleDropdownChange}>
-          <option value="wines">Wines</option>
-          <option value="wineglasses">Wine Glasses</option>
-          <option value="winetotes">Wine Totes</option>
-          <option value="wineart">Wine House Decor</option>
+          <option name="wine" value="wines">Wines</option>
+          <option name="wineglasses" value="wineglasses">Wine Glasses</option>
+          <option name="winetotes" value="winetotes">Wine Totes</option>
+          <option name ="winetotes" value="wineart">Wine House Decor</option>
         </select>
       </label>
-      <input type="submit" value="Submit" />
+     
     </form>
     <Container>
       <Col>

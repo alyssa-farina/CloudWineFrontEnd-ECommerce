@@ -31,6 +31,7 @@ class Order extends React.Component {
               {Math.floor(Math.random() * 100000 + 1)}
             </h4>
            
+           
           </Col>
         </Row>
         <Row>
@@ -40,6 +41,7 @@ class Order extends React.Component {
               alt="man on scooter"
               className="scooter-img"
             />
+            
           </Col>
         </Row>
         <Row>
@@ -50,12 +52,15 @@ class Order extends React.Component {
             </h4>
           </Col>
         </Row>
+        
       </Container>
+      
     );
   }
   render() {
     const { order } = this.state;
     return <div>{order ? this.renderOrder() : 'Loading...'}</div>;
+    
   }
 }
 

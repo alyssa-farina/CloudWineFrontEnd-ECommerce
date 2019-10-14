@@ -59,9 +59,11 @@ class Login extends Component {
               type="submit">
               Log In
             </Button>
+            <br/>
+            <img src = "https://www.freeiconspng.com/uploads/wine-glass-png-21.png" width="100px" height="150px"/>
           </form>
           <br />
-          Or <Link to="/signup">Create Account</Link>
+           <h4 align="center"className="linktosignup"><Link to="/signup">Don't have an Account? Click here</Link></h4>
         </Col>
         </Container>
     );

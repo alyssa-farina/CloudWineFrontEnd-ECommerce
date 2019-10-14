@@ -20,7 +20,7 @@ import {
   DropdownItem,
   Jumbotron
 } from 'reactstrap';
-import logo from './logo2.png';
+import shoppinglogo from './shoppinglogo.png';
 import productList from './features/product-list';
 import ReturnsPage from './pages/returnspage'
 import WineQuizPage from './pages/winequizpage';
@@ -91,7 +91,7 @@ class App extends Component {
           className="navbar-custom">
           <NavbarBrand>
             <NavItem tag={RRNavLink} to="/" className="logo">
-              <img src={logo} alt="logo" height="60" />
+              <img src={shoppinglogo} alt="shoplogo" height="60" />
               Cloud Wine 
               <h6 className="shopping">Shopping & Wine Make Everything Fine</h6>
             </NavItem>

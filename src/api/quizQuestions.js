@@ -1,136 +1,321 @@
 var quizQuestions = [
     {
-        question: "You enjoy vibrant social events with lots of people?",
+        question: " You tend to be hardworking and take responsibility very seriously?",
         answers: [
             {
-                type: "Malbec: Malbecs are a great red with notes of plums and blackberry, and is considered to be a very versatile wine that encompasses a lot of flavors that can please any palate (just like ISTPs!). Considering malbecs pair with everything, they definitely go hand in hand with the ISTP ‘value efficiency’ characteristicbec",
+                type: "Chardonnay:   ISTJs tend to be logical, consistent and organized. They are hardworking and take responsibility very seriously. California chardonnay is structured and always straightforward. It is a very consistent wine and you know what you are getting when you buy.",
                 content: "Strongly Agree"
             },
             {
-                type: "Pinot Noir: Pinot Noir is an earthy wine with great scents of red fruit cherries, licorice, and smoke, which makes anyone drinking this wine enjoy every sip. The process of drinking this wine is just like ISFPs, who live in every moment and work at their own pace/cadence.",
+                type: "Cabernet Sauvginon:  ESTJs are the logical thinkers who are determined, keen and pragmatic. They are very good at organizing, finding logical ways to solve problems and have a tendency to be by the books and provide results. Cabernet sauvignon is a bold wine and goes with anyone looking for organized and pragmatic results.",
                 content: "Agree"
             },
             {
-                type: "Cabernet Sauvignon: Cabernet Sauvignon is for pragmatic, keen, and determined  individuals who are great at making decisions. They’re also adept at organizing teams and finding logical ways to effectively solve problems. They tend to be more forceful and by-the-books, and are great at providing results.",
+                type: "Riesling:   INFPs place a lot of weight in their values, and ensure every facet of their life goes in line with their ideology. They are also great at finding the good in others, and help people both realize and execute on their potential. This personality is great for teams or working in pairs. The effervescence and brighter tastes of the Riesling are just like the bright-eyed INFP who seek possibilities in their environment and others.",
                 content: "Neutral"
             },
             {
-                type: "Merlot: Merlot has the same warmth and compassion of an individual like you, and provides a less intense but still delightful taste of any medium to full-bodied red. It’s a great go-to wine for everyday drinking, and its consistency in taste is similar to that of the loyalty found in a personality like yours.",
+                type: "Pinot Noir:   ISFPs are in tune with their emotions, live in the moment, avoid conflict and always find harmony to their environment. Pinot noir has many harmonious tastes and aromas. It just seems to always be an easy-going wine not asking for much other than to join in the food, celebration or even the cellar.",
                 content: "Disagree"
             },
             {
-                type: "Pinot Grigio: Pinot Grigio can please a lot of different palates, since it ranges from tangy, to light, to rich, to round, and to full-bodied. It also has those same ‘specifics’ for consistency,",
+                type: "Pinot Grigio:  ISFJs tend to be loyal, kind and have sympathetic tendencies. This group is very conscientious of the people around them and are great friends to have. Pinot grigio is subtle in the glass and always a safe, predictable option at any gathering.",
                 content: "Strongly Disagree"
             },
         ]
     },
     
     {
-        question: "You often spend time exploring unrealistic yet intriguing ideas?",
+        question: "You are very good at organizing and finding logical ways to solve problems? ",
         answers: [
             {
-                type: "Malbec: Malbecs are a great red with notes of plums and blackberry, and is considered to be a very versatile wine that encompasses a lot of flavors that can please any palate (just like ISTPs!). Considering malbecs pair with everything, they definitely go hand in hand with the ISTP ‘value efficiency’ characteristic",
+                type: "Cabernet Sauvginon:  ESTJs are the logical thinkers who are determined, keen and pragmatic. They are very good at organizing, finding logical ways to solve problems and have a tendency to be by the books and provide results. Cabernet sauvignon is a bold wine and goes with anyone looking for organized and pragmatic results.",
+                content: "Stronly Agree",
+                
+            },
+            {
+                type: "Chardonnay:   ISTJs tend to be logical, consistent and organized. They are hardworking and take responsibility very seriously. California chardonnay is structured and always straightforward. It is a very consistent wine and you know what you are getting when you buy.",
+                content: "Agree",
+            },
+            {
+                type: "Riesling:   INFPs place a lot of weight in their values, and ensure every facet of their life goes in line with their ideology. They are also great at finding the good in others, and help people both realize and execute on their potential. This personality is great for teams or working in pairs. The effervescence and brighter tastes of the Riesling are just like the bright-eyed INFP who seek possibilities in their environment and others.",
                 content: "Neutral"
             },
             {
-                type: "Pinot Noir: Pinot Noir is an earthy wine with great scents of red fruit cherries, licorice, and smoke, which makes anyone drinking this wine enjoy every sip. The process of drinking this wine is just for people  who live in every moment and work at their own pace/cadence.",
-                content: "Agree"
-            },
-            {
-                type: "Cabernet Sauvignon: Cabernet Sauvignon is for pragmatic, keen, and determined  individuals who are great at making decisions. They’re also adept at organizing teams and finding logical ways to effectively solve problems. They tend to be more forceful and by-the-books, and are great at providing results.",
-                content: "Strongly Agree"
-            },
-            {
-                type: "Merlot: Merlot has the same warmth and compassion of an individual like you, and provides a less intense but still delightful taste of any medium to full-bodied red. It’s a great go-to wine for everyday drinking, and its consistency in taste is similar to that of the loyalty found in a personality like yours.",
+                type: "Pinot Grigio:  ISFJs tend to be loyal, kind and have sympathetic tendencies. This group is very conscientious of the people around them and are great friends to have. Pinot grigio is subtle in the glass and always a safe, predictable option at any gathering.",
                 content: "Disagree"
             },
             {
-                type:  "Pinot Grigio: Pinot Grigio can please a lot of different palates, since it ranges from tangy, to light, to rich, to round, and to full-bodied. It also has those same ‘specifics’ for consistency,",
+                type: "Pinot Noir:   ISFPs are in tune with their emotions, live in the moment, avoid conflict and always find harmony to their environment. Pinot noir has many harmonious tastes and aromas. It just seems to always be an easy-going wine not asking for much other than to join in the food, celebration or even the cellar.",
                 content: "Strongly Disagree"
             },
         ]
     },
     
     {
-        question: "You often think about what you should have said in a conversation long after it has taken place.",
+        question: "You are great at finding the good in others?",
         answers: [
             {
-                type: "Malbecs are a great red with notes of plums and blackberry, and is considered to be a very versatile wine that encompasses a lot of flavors that can please any palate (just like ISTPs!). Considering malbecs pair with everything, they definitely go hand in hand with the ISTP ‘value efficiency’ characteristic",
-                content: "Neutral"
-            },
-            {
-                type: "Pinot Noir: Pinot Noir is an earthy wine with great scents of red fruit cherries, licorice, and smoke, which makes anyone drinking this wine enjoy every sip. The process of drinking this wine is just for people  who live in every moment and work at their own pace/cadence.",
-                content: "Agree"
-            },
-            {
-                type: "Cabernet Sauvignon: Cabernet Sauvignon is for pragmatic, keen, and determined  individuals who are great at making decisions. They’re also adept at organizing teams and finding logical ways to effectively solve problems. They tend to be more forceful and by-the-books, and are great at providing results.",
+                type: "Riesling:   INFPs place a lot of weight in their values, and ensure every facet of their life goes in line with their ideology. They are also great at finding the good in others, and help people both realize and execute on their potential. This personality is great for teams or working in pairs. The effervescence and brighter tastes of the Riesling are just like the bright-eyed INFP who seek possibilities in their environment and others.",
                 content: "Strongly Agree"
             },
             {
-                type: "Merlot: Merlot has the same warmth and compassion of an individual like you, and provides a less intense but still delightful taste of any medium to full-bodied red. It’s a great go-to wine for everyday drinking, and its consistency in taste is similar to that of the loyalty found in a personality like yours.",
+                type: "Pinot Noir:   ISFPs are in tune with their emotions, live in the moment, avoid conflict and always find harmony to their environment. Pinot noir has many harmonious tastes and aromas. It just seems to always be an easy-going wine not asking for much other than to join in the food, celebration or even the cellar.",
+                content: "Agree"
+            },
+            {
+                type: "Pinot Grigio:  ISFJs tend to be loyal, kind and have sympathetic tendencies. This group is very conscientious of the people around them and are great friends to have. Pinot grigio is subtle in the glass and always a safe, predictable option at any gathering.",
+                content: "Neutral"
+            },
+            {
+                type: "Cabernet Sauvginon:  ESTJs are the logical thinkers who are determined, keen and pragmatic. They are very good at organizing, finding logical ways to solve problems and have a tendency to be by the books and provide results. Cabernet sauvignon is a bold wine and goes with anyone looking for organized and pragmatic results.",
                 content: "Disagree"
             },
             {
-                type:  "Pinot Grigio: Pinot Grigio can please a lot of different palates, since it ranges from tangy, to light, to rich, to round, and to full-bodied. It also has those same ‘specifics’ for consistency,",
+                type: "Chardonnay:   ISTJs tend to be logical, consistent and organized. They are hardworking and take responsibility very seriously. California chardonnay is structured and always straightforward. It is a very consistent wine and you know what you are getting when you buy.",
+                content: "Stronly Disagree"
+            },
+        ]
+    },
+    {
+        question: "You tend to avoid conflict, and instead finds peaceful ways to bring harmony to their environment?",
+        answers: [
+            {
+                type: "Pinot Noir:   ISFPs are in tune with their emotions, live in the moment, avoid conflict and always find harmony to their environment. Pinot noir has many harmonious tastes and aromas. It just seems to always be an easy-going wine not asking for much other than to join in the food, celebration or even the cellar.",
+                content: "Strongly Agree"
+            },
+            {
+                type: "Riesling:   INFPs place a lot of weight in their values, and ensure every facet of their life goes in line with their ideology. They are also great at finding the good in others, and help people both realize and execute on their potential. This personality is great for teams or working in pairs. The effervescence and brighter tastes of the Riesling are just like the bright-eyed INFP who seek possibilities in their environment and others.",
+                content: "Agree"
+            },
+            {
+                type: "Pinot Grigio:  ISFJs tend to be loyal, kind and have sympathetic tendencies. This group is very conscientious of the people around them and are great friends to have. Pinot grigio is subtle in the glass and always a safe, predictable option at any gathering.",
+                content: "Neutral"
+            },
+            {
+                type: "Chardonnay:   ISTJs tend to be logical, consistent and organized. They are hardworking and take responsibility very seriously. California chardonnay is structured and always straightforward. It is a very consistent wine and you know what you are getting when you buy.",
+                content: "Disagree"
+            },
+            {
+                type: "Cabernet Sauvginon:  ESTJs are the logical thinkers who are determined, keen and pragmatic. They are very good at organizing, finding logical ways to solve problems and have a tendency to be by the books and provide results. Cabernet sauvignon is a bold wine and goes with anyone looking for organized and pragmatic results.",
                 content: "Strongly Disagree"
             },
         ]
     },
     {
-        question: "People can rarely upset you.",
+        question: "You place a lot of weight in your values, and ensure every facet of your life goes in line with your ideology.",
         answers: [
             {
-                type: "Malbecs are a great red with notes of plums and blackberry, and is considered to be a very versatile wine that encompasses a lot of flavors that can please any palate (just like ISTPs!). Considering malbecs pair with everything, they definitely go hand in hand with the ISTP ‘value efficiency’ characteristic",
-                content: "Neutral"
-            },
-            {
-                type: "Pinot Noir: Pinot Noir is an earthy wine with great scents of red fruit cherries, licorice, and smoke, which makes anyone drinking this wine enjoy every sip. The process of drinking this wine is just for people  who live in every moment and work at their own pace/cadence.",
-                content: "Agree"
-            },
-            {
-                type: "Cabernet Sauvignon: Cabernet Sauvignon is for pragmatic, keen, and determined  individuals who are great at making decisions. They’re also adept at organizing teams and finding logical ways to effectively solve problems. They tend to be more forceful and by-the-books, and are great at providing results.",
+                type: "Riesling:   INFPs place a lot of weight in their values, and ensure every facet of their life goes in line with their ideology. They are also great at finding the good in others, and help people both realize and execute on their potential. This personality is great for teams or working in pairs. The effervescence and brighter tastes of the Riesling are just like the bright-eyed INFP who seek possibilities in their environment and others.",
                 content: "Strongly Agree"
             },
             {
-                type: "Merlot: Merlot has the same warmth and compassion of an individual like you, and provides a less intense but still delightful taste of any medium to full-bodied red. It’s a great go-to wine for everyday drinking, and its consistency in taste is similar to that of the loyalty found in a personality like yours.",
+                type: "Pinot Grigio:  ISFJs tend to be loyal, kind and have sympathetic tendencies. This group is very conscientious of the people around them and are great friends to have. Pinot grigio is subtle in the glass and always a safe, predictable option at any gathering.",
+                content: "Agree"
+            },
+            {
+                type: "Pinot Noir:   ISFPs are in tune with their emotions, live in the moment, avoid conflict and always find harmony to their environment. Pinot noir has many harmonious tastes and aromas. It just seems to always be an easy-going wine not asking for much other than to join in the food, celebration or even the cellar.",
+                content: "Neutral"
+            },
+            {
+                type: "Cabernet Sauvginon:  ESTJs are the logical thinkers who are determined, keen and pragmatic. They are very good at organizing, finding logical ways to solve problems and have a tendency to be by the books and provide results. Cabernet sauvignon is a bold wine and goes with anyone looking for organized and pragmatic results.",
                 content: "Disagree"
             },
             {
-                type:  "Pinot Grigio: Pinot Grigio can please a lot of different palates, since it ranges from tangy, to light, to rich, to round, and to full-bodied. It also has those same ‘specifics’ for consistency,",
+                type: "Chardonnay:   ISTJs tend to be logical, consistent and organized. They are hardworking and take responsibility very seriously. California chardonnay is structured and always straightforward. It is a very consistent wine and you know what you are getting when you buy.",
                 content: "Strongly Disagree"
             },
         ]
     },
     {
-        question: "You often rely on other people to be the ones to start a conversation and keep it going.",
-        answers: [
-            {
-                type: "Malbecs are a great red with notes of plums and blackberry, and is considered to be a very versatile wine that encompasses a lot of flavors that can please any palate (just like ISTPs!). Considering malbecs pair with everything, they definitely go hand in hand with the ISTP ‘value efficiency’ characteristic",
-                content: "Neutral"
+                question: "You are very conscientious of the people around you?",
+                answers: [
+                    {
+                        type: "Pinot Grigio:  ISFJs tend to be loyal, kind and have sympathetic tendencies. This group is very conscientious of the people around them and are great friends to have. Pinot grigio is subtle in the glass and always a safe, predictable option at any gathering.",
+                        content: "Strongly Agree",
+                        
+                    },
+                    {
+                        type: "Riesling:   INFPs place a lot of weight in their values, and ensure every facet of their life goes in line with their ideology. They are also great at finding the good in others, and help people both realize and execute on their potential. This personality is great for teams or working in pairs. The effervescence and brighter tastes of the Riesling are just like the bright-eyed INFP who seek possibilities in their environment and others.",
+                        content: "Agree",
+                    },
+                    {
+                        type: "Pinot Noir:   ISFPs are in tune with their emotions, live in the moment, avoid conflict and always find harmony to their environment. Pinot noir has many harmonious tastes and aromas. It just seems to always be an easy-going wine not asking for much other than to join in the food, celebration or even the cellar.",
+                        content: "Neutral"
+                    },
+                    {
+                        type: "Chardonnay:   ISTJs tend to be logical, consistent and organized. They are hardworking and take responsibility very seriously. California chardonnay is structured and always straightforward. It is a very consistent wine and you know what you are getting when you buy.",
+                        content: "Disagree"
+                    },
+                    {
+                        type: "Cabernet Sauvginon:  ESTJs are the logical thinkers who are determined, keen and pragmatic. They are very good at organizing, finding logical ways to solve problems and have a tendency to be by the books and provide results. Cabernet sauvignon is a bold wine and goes with anyone looking for organized and pragmatic results.",
+                        content: "Strongly Disagree"
+                    },
+                ]
             },
             {
-                type: "Pinot Noir: Pinot Noir is an earthy wine with great scents of red fruit cherries, licorice, and smoke, which makes anyone drinking this wine enjoy every sip. The process of drinking this wine is just for people  who live in every moment and work at their own pace/cadence.",
-                content: "Agree"
+                question: "You take pleasure in making everything orderly and organized - your work, your home, your life?",
+                answers: [
+                    {
+                        type: "Chardonnay:   ISTJs tend to be logical, consistent and organized. They are hardworking and take responsibility very seriously. California chardonnay is structured and always straightforward. It is a very consistent wine and you know what you are getting when you buy.",
+                        content: "Strongly Agree",
+                        
+                    },
+                    {
+                        type: "Riesling:   INFPs place a lot of weight in their values, and ensure every facet of their life goes in line with their ideology. They are also great at finding the good in others, and help people both realize and execute on their potential. This personality is great for teams or working in pairs. The effervescence and brighter tastes of the Riesling are just like the bright-eyed INFP who seek possibilities in their environment and others.",
+                        content: "Agree",
+                    },
+                    {
+                        type: "Pinot Noir:   ISFPs are in tune with their emotions, live in the moment, avoid conflict and always find harmony to their environment. Pinot noir has many harmonious tastes and aromas. It just seems to always be an easy-going wine not asking for much other than to join in the food, celebration or even the cellar.",
+                        content: "Neutral"
+                    },
+                    {
+                        type: "Pinot Grigio:  ISFJs tend to be loyal, kind and have sympathetic tendencies. This group is very conscientious of the people around them and are great friends to have. Pinot grigio is subtle in the glass and always a safe, predictable option at any gathering.",
+                        content: "Disagree"
+                    },
+                    {
+                        type: "Cabernet Sauvginon:  ESTJs are the logical thinkers who are determined, keen and pragmatic. They are very good at organizing, finding logical ways to solve problems and have a tendency to be by the books and provide results. Cabernet sauvignon is a bold wine and goes with anyone looking for organized and pragmatic results.",
+                        content: "Strongly Disagree"
+                    },
+                ]
             },
             {
-                type: "Cabernet Sauvignon: Cabernet Sauvignon is for pragmatic, keen, and determined  individuals who are great at making decisions. They’re also adept at organizing teams and finding logical ways to effectively solve problems. They tend to be more forceful and by-the-books, and are great at providing results.",
-                content: "Strongly Agree"
+                question: "You are great at making decisions?",
+                answers: [
+                    {
+                        type: "Cabernet Sauvginon:  ESTJs are the logical thinkers who are determined, keen and pragmatic. They are very good at organizing, finding logical ways to solve problems and have a tendency to be by the books and provide results. Cabernet sauvignon is a bold wine and goes with anyone looking for organized and pragmatic results.",
+                        content: "Strongly Agree",
+                       
+                    },
+                    {
+                        type: "Chardonnay:   ISTJs tend to be logical, consistent and organized. They are hardworking and take responsibility very seriously. California chardonnay is structured and always straightforward. It is a very consistent wine and you know what you are getting when you buy.",
+                        content: "Agree",
+                    },
+                    {
+                        type: "Riesling:   INFPs place a lot of weight in their values, and ensure every facet of their life goes in line with their ideology. They are also great at finding the good in others, and help people both realize and execute on their potential. This personality is great for teams or working in pairs. The effervescence and brighter tastes of the Riesling are just like the bright-eyed INFP who seek possibilities in their environment and others.",
+                        content: "Neutral"
+                    },
+                    {
+                        type: "Pinot Grigio:  ISFJs tend to be loyal, kind and have sympathetic tendencies. This group is very conscientious of the people around them and are great friends to have. Pinot grigio is subtle in the glass and always a safe, predictable option at any gathering.",
+                        content: "Disagree"
+                    },
+                    {
+                        type: "Pinot Noir:   ISFPs are in tune with their emotions, live in the moment, avoid conflict and always find harmony to their environment. Pinot noir has many harmonious tastes and aromas. It just seems to always be an easy-going wine not asking for much other than to join in the food, celebration or even the cellar.",
+                        content: "Strongly Disagree"
+                    },
+                ]
             },
             {
-                type: "Merlot: Merlot has the same warmth and compassion of an individual like you, and provides a less intense but still delightful taste of any medium to full-bodied red. It’s a great go-to wine for everyday drinking, and its consistency in taste is similar to that of the loyalty found in a personality like yours.",
-                content: "Disagree"
+                question: "You find yourself avoiding conflict whenever possible?",
+                answers: [
+                    {
+                        type: "Pinot Noir:   ISFPs are in tune with their emotions, live in the moment, avoid conflict and always find harmony to their environment. Pinot noir has many harmonious tastes and aromas. It just seems to always be an easy-going wine not asking for much other than to join in the food, celebration or even the cellar.",
+                        content: "Strongly Agree",
+  
+                    },
+                    {
+                        type: "Pinot Grigio:  ISFJs tend to be loyal, kind and have sympathetic tendencies. This group is very conscientious of the people around them and are great friends to have. Pinot grigio is subtle in the glass and always a safe, predictable option at any gathering.",
+                        content: "Agree",
+                    },
+                    {
+                        type: "Riesling:   INFPs place a lot of weight in their values, and ensure every facet of their life goes in line with their ideology. They are also great at finding the good in others, and help people both realize and execute on their potential. This personality is great for teams or working in pairs. The effervescence and brighter tastes of the Riesling are just like the bright-eyed INFP who seek possibilities in their environment and others.",
+                        content: "Neutral"
+                    },
+                    {
+                        type: "Cabernet Sauvginon:  ESTJs are the logical thinkers who are determined, keen and pragmatic. They are very good at organizing, finding logical ways to solve problems and have a tendency to be by the books and provide results. Cabernet sauvignon is a bold wine and goes with anyone looking for organized and pragmatic results.",
+                        content: "Disagree"
+                    },
+                    {
+                        type: "Chardonnay:   ISTJs tend to be logical, consistent and organized. They are hardworking and take responsibility very seriously. California chardonnay is structured and always straightforward. It is a very consistent wine and you know what you are getting when you buy.",
+                        content: "Strongly Disagree"
+                    },
+                ]
             },
             {
-                type:  "Pinot Grigio: Pinot Grigio can please a lot of different palates, since it ranges from tangy, to light, to rich, to round, and to full-bodied. It also has those same ‘specifics’ for consistency,",
-                content: "Strongly Disagree"
+                question: "You appreciate tradition and like knowing how things were done in the past?",
+                answers: [
+                    {
+                        type: "Pinot Grigio:  ISFJs tend to be loyal, kind and have sympathetic tendencies. This group is very conscientious of the people around them and are great friends to have. Pinot grigio is subtle in the glass and always a safe, predictable option at any gathering.",
+                        content: "Strongly Agree",
+                        
+                    },
+                    {
+                        type: "Riesling:   INFPs place a lot of weight in their values, and ensure every facet of their life goes in line with their ideology. They are also great at finding the good in others, and help people both realize and execute on their potential. This personality is great for teams or working in pairs. The effervescence and brighter tastes of the Riesling are just like the bright-eyed INFP who seek possibilities in their environment and others.",
+                        content: "Agree",
+                    },
+                    {
+                        type: "Pinot Noir:   ISFPs are in tune with their emotions, live in the moment, avoid conflict and always find harmony to their environment. Pinot noir has many harmonious tastes and aromas. It just seems to always be an easy-going wine not asking for much other than to join in the food, celebration or even the cellar.",
+                        content: "Neutral"
+                    },
+                    {
+                        type: "Cabernet Sauvginon:  ESTJs are the logical thinkers who are determined, keen and pragmatic. They are very good at organizing, finding logical ways to solve problems and have a tendency to be by the books and provide results. Cabernet sauvignon is a bold wine and goes with anyone looking for organized and pragmatic results.",
+                        content: "Disagree"
+                    },
+                    {
+                        type: "Chardonnay:   ISTJs tend to be logical, consistent and organized. They are hardworking and take responsibility very seriously. California chardonnay is structured and always straightforward. It is a very consistent wine and you know what you are getting when you buy.",
+                        content: "Strongly Disagree"
+                    },
+                ]
+            },
+            {
+                question: "You rely on your past experience to guide you, and are most comfortable in familiar surroundings",
+                answers: [
+                    {
+                        type: "Chardonnay:   ISTJs tend to be logical, consistent and organized. They are hardworking and take responsibility very seriously. California chardonnay is structured and always straightforward. It is a very consistent wine and you know what you are getting when you buy.",
+                        content: "Strongly Agree",
+                        
+                    },
+                    {
+                        type: "Pinot Grigio:  ISFJs tend to be loyal, kind and have sympathetic tendencies. This group is very conscientious of the people around them and are great friends to have. Pinot grigio is subtle in the glass and always a safe, predictable option at any gathering.",
+                        content: "Agree",
+                    },
+                    {
+                        type: "Pinot Noir:   ISFPs are in tune with their emotions, live in the moment, avoid conflict and always find harmony to their environment. Pinot noir has many harmonious tastes and aromas. It just seems to always be an easy-going wine not asking for much other than to join in the food, celebration or even the cellar.",
+                        content: "Neutral"
+                    },
+                    {
+                        type: "Riesling:   INFPs place a lot of weight in their values, and ensure every facet of their life goes in line with their ideology. They are also great at finding the good in others, and help people both realize and execute on their potential. This personality is great for teams or working in pairs. The effervescence and brighter tastes of the Riesling are just like the bright-eyed INFP who seek possibilities in their environment and others.",
+                        content: "Disagree"
+                    },
+                    {
+                        type: "Cabernet Sauvginon:  ESTJs are the logical thinkers who are determined, keen and pragmatic. They are very good at organizing, finding logical ways to solve problems and have a tendency to be by the books and provide results. Cabernet sauvignon is a bold wine and goes with anyone looking for organized and pragmatic results.",
+                        content: "Strongly Disagree"
+                    },
+                ]
+            },
+            {
+                question: "You tend to notice and remember specifics about people who are important to you?",
+                answers: [
+                    {
+                        type: "Pinot Grigio:  ISFJs tend to be loyal, kind and have sympathetic tendencies. This group is very conscientious of the people around them and are great friends to have. Pinot grigio is subtle in the glass and always a safe, predictable option at any gathering.",
+                        content: "Strongly Agree",
+                        
+                    },
+                    {
+                        type: "Riesling:   INFPs place a lot of weight in their values, and ensure every facet of their life goes in line with their ideology. They are also great at finding the good in others, and help people both realize and execute on their potential. This personality is great for teams or working in pairs. The effervescence and brighter tastes of the Riesling are just like the bright-eyed INFP who seek possibilities in their environment and others.",
+                        content: "Agree",
+                    },
+                    {
+                        type: "Pinot Noir:   ISFPs are in tune with their emotions, live in the moment, avoid conflict and always find harmony to their environment. Pinot noir has many harmonious tastes and aromas. It just seems to always be an easy-going wine not asking for much other than to join in the food, celebration or even the cellar.",
+                        content: "Neutral"
+                    },
+                    {
+                        type: "Chardonnay:   ISTJs tend to be logical, consistent and organized. They are hardworking and take responsibility very seriously. California chardonnay is structured and always straightforward. It is a very consistent wine and you know what you are getting when you buy.",
+                        content: "Disagree"
+                    },
+                    {
+                        type: "Cabernet Sauvginon:  ESTJs are the logical thinkers who are determined, keen and pragmatic. They are very good at organizing, finding logical ways to solve problems and have a tendency to be by the books and provide results. Cabernet sauvignon is a bold wine and goes with anyone looking for organized and pragmatic results.",
+                        content: "Strongly Disagree"
+                    },
+                ]
             },
             
             
             
         ]
         
-    }
     
-  ];
+    
+  
   
   export default quizQuestions;

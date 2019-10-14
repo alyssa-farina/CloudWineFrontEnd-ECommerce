@@ -15,7 +15,7 @@ function Result(props) {
       transitionAppear
       transitionAppearTimeout={500}
     >
-      <div>
+      <div className = "resultsdiv">
         You prefer <strong className="results">{props.quizResult}</strong>!
       <br/>
       <br/>
@@ -23,10 +23,10 @@ function Result(props) {
        
       </div>
      
-  );
+  
      
-      }
-    // </TransitionGroup>
+      
+     </TransitionGroup>
   );
 }
 

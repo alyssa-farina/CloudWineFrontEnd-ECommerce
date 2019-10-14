@@ -126,10 +126,6 @@ class QuizPage extends Component {
       
         <div className="Wine-header">
        
-         <br/>
-         <br/>
-         <br/>
-         <br/>
          <h2 className="wine" style={{ backgroundColor: "black", padding: "10px 20px", textAlign: "center", color: "white"}}>Winealyzer</h2>    
         <h5 className="wineLogo" style={{backgroundColor: "black", adding: "10px 20px", textAlign: "center", color: "white"}}>Designed to analayze your mind & match you with the finest kind of wine!</h5>
         </div>

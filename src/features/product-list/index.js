@@ -12,7 +12,9 @@ class ProductList extends React.Component {
         loadProducts(json);
       }
     );
+    
   }
+  
 
   render() {
     const { removeFromCart, products, cart } = this.props;

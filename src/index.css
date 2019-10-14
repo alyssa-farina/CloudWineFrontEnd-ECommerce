@@ -2,8 +2,8 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  /* background-image: url("https://thumbs.gfycat.com/OffbeatKindAmphibian-size_restricted.gif"); */
-    background-image: linear-gradient(to right, rgb(243, 146, 146) , rgb(131, 39, 39));
+  background-image: url("https://data.whicdn.com/images/272396511/original.gif");
+    /* background-image: linear-gradient(to right, rgb(243, 146, 146) , rgb(131, 39, 39)); */
   background-size: cover;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -12,7 +12,20 @@ body {
 
 
 }
+.linktosignup {
+  background-color: rgb(113, 2, 40);
 
+}
+.linktologin {
+  background-color: rgb(113, 2, 40);
+
+}
+
+.resultsdiv {
+  background-color: rgb(106, 0, 5);
+  color: rgb(187, 204, 240);
+  text-align: center;
+}
 
 .question {
   color: white;
@@ -34,6 +47,7 @@ body {
   background-color: #b1cce3;
   width: 550px;
   height: 400px;
+  
 }
 .results {
   color: white;

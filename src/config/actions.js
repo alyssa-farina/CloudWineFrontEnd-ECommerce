@@ -62,7 +62,8 @@ export const userLoginFetch = user => {
       .then(res => res.json())
       .then(data => {
         if (data.message) {
-          alert('Username or password incorrect');
+          alert('Hey You! Have you been sipping on some wine? Its okay, we have all been there🍷🍷🍷🍷🍷🍷. Just reenter your username and password');
+          window.location.href = "/login"
         } else {
           localStorage.setItem('token', data.jwt);
           dispatch(loginUser(data.user));
@@ -70,7 +71,7 @@ export const userLoginFetch = user => {
       });
   };
 };
-
+export const FILTER_PRODUCTS_BY_CATEGORY = 'FILTER_PRODUCTS_BY_CATEGORY';
 export const logoutUser = () => ({
   type: 'LOGOUT_USER'
 });

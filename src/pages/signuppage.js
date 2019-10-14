@@ -57,9 +57,11 @@ class Signup extends Component {
               type="submit">
               Sign Up
             </Button>
+            <br/>
+            <img src = "https://media.tenor.com/images/67ccb3415f3497680869248827ab4176/tenor.gif" width="150px" height="150px"/>
           </form>
           <br />
-          Have an account already? <Link to="/login">Sign In</Link>
+          <h4 align="center"className="linktologin"><Link to="/login">Already have an account? Click here</Link></h4>
         </Col>
       </Container>
     );
