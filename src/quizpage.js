@@ -5,7 +5,6 @@ import Result from './components/Result';
 
 
 
-
 class QuizPage extends Component {
   constructor(props) {
     super(props);
@@ -122,11 +121,17 @@ class QuizPage extends Component {
 
   render() {
     return (
-      <div className="winealyzer" style={{ backgroundImage: `url(${("https://wallpaperplay.com/walls/full/e/8/8/61234.jpg")}`, backgroundRepeat  : 'no-repeat',  resizeMode: 'stretch' }}>
+      
+      <div className="winealyzer" >
+      
         <div className="Wine-header">
-         <img src="https://www.uscharitablegifttrust.org/images/interface/spinner.gif" className="spinwine" alt="spinwine" width="120px" height="150px"/>
-         <h2 className="wine" style={{ padding: "10px 20px", textAlign: "center", color: "white"}}>Winealyzer</h2>    
-        <h5>Designed to analayze your mind & match you with the finest kind of wine!</h5>
+       
+         <br/>
+         <br/>
+         <br/>
+         <br/>
+         <h2 className="wine" style={{ backgroundColor: "black", padding: "10px 20px", textAlign: "center", color: "white"}}>Winealyzer</h2>    
+        <h5 className="wineLogo" style={{backgroundColor: "black", adding: "10px 20px", textAlign: "center", color: "white"}}>Designed to analayze your mind & match you with the finest kind of wine!</h5>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>

@@ -23,6 +23,9 @@ import {
 import logo from './logo2.png';
 import productList from './features/product-list';
 import ReturnsPage from './pages/returnspage'
+import WineQuizPage from './pages/winequizpage';
+import WelcomePage from './pages/welcomepage';
+import EventsPage from './pages/eventspage';
 
 
 
@@ -69,6 +72,12 @@ class App extends Component {
   handleRedirectClick = e => {
     window.location.href="/returns"
   }
+  handleRedirectShopClick = e => {
+    window.location.href="/products"
+  }
+  handleRedirectEventsClick = e => {
+    window.location.href="/events"
+  }
 
   render() {
     console.log(this.state)
@@ -79,7 +88,7 @@ class App extends Component {
           light
           expand="md"
           sticky="top"
-          className="bold navbar-custom">
+          className="navbar-custom">
           <NavbarBrand>
             <NavItem tag={RRNavLink} to="/" className="logo">
               <img src={logo} alt="logo" height="60" />
@@ -91,7 +100,7 @@ class App extends Component {
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem className="nav-spacing">
-                <NavLink tag={RRNavLink} to="/home">
+                <NavLink tag={RRNavLink} to="/">
                   HOME
                 </NavLink>
               </NavItem>
@@ -120,22 +129,24 @@ class App extends Component {
                       isOpen={this.state.dropdownOpen}
                       toggle={this.toggle}>
                       <DropdownToggle className="white-button" caret>
-                        MY ACCOUNT
+                        Click Me
                       </DropdownToggle>
                       <DropdownMenu>
                         <DropdownItem header>
                           Welcome, {this.props.currentUser.username}
                         </DropdownItem>
-                         <DropdownItem header>
-                         <NavLink tag={RRNavLink} to="/products">
-                   Products
-                  </NavLink>
-                                    </DropdownItem>
+                        <DropdownItem onClick={this.handleRedirectShopClick}>
+                          Shop🛍
+                        </DropdownItem>
                         <DropdownItem onClick={this.handleClick}>
-                          Log Out
+                          Log Out😭
                         </DropdownItem>
                         <DropdownItem onClick={this.handleRedirectClick}>
-                          Returns Info
+                          Returns Info📦
+                        </DropdownItem>
+                        <DropdownItem onClick={this.handleRedirectEventsClick}>
+                     
+                          Events📆
                         </DropdownItem>
                       </DropdownMenu>
                     </Dropdown>
@@ -146,6 +157,7 @@ class App extends Component {
           </Collapse>
         </Navbar>
         <Router />
+       
        
       </div>
     );

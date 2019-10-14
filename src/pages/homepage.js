@@ -7,11 +7,11 @@ export default function Homepage(props) {
     <div>
       <div>
         <Jumbotron className="jumbo-image small-jumbo-image">
-          <h1 className="display-3  jumbo-head-text">Welcome</h1>
-          <p className="lead jumbo-body-text">
-           
+          <h1 className="welcomeheader">Welcome</h1>
+          <p className="quizinfo">
+           <a href="/winequiz">Click here to be WINEALYZED</a>
           </p>
-          <hr className="my-2" />
+          
         </Jumbotron>
       </div>
       <Container>

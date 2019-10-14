@@ -27,7 +27,7 @@ class Login extends Component {
 
   render() {
     return (
-      <Container>
+      <Container className="logincontainer">
         <Col sm="12" md={{ size: 6, offset: 3 }}>
           <form
             className="form-signin lower-content"

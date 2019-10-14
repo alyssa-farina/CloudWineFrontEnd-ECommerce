@@ -16,11 +16,16 @@ function Result(props) {
       transitionAppearTimeout={500}
     >
       <div>
-        You prefer <strong>{props.quizResult}</strong>!
+        You prefer <strong className="results">{props.quizResult}</strong>!
       <br/>
       <br/>
         <a href="/home">Enter Cloud Wine</a>
+       
       </div>
+     
+  );
+     
+      }
     // </TransitionGroup>
   );
 }

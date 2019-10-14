@@ -2,6 +2,7 @@ import React from 'react';
 import ProductList from '../features/product-list';
 import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
 
+
 export default class Homepage extends React.Component {
   constructor(props) {
     super(props);
@@ -11,6 +12,8 @@ export default class Homepage extends React.Component {
 
     this.handleDropdownChange = this.handleDropdownChange.bind(this);
   }
+
+  
  handleDropdownChange = e => {
    e.preventDefault();
    this.setState({ 
@@ -20,7 +23,9 @@ export default class Homepage extends React.Component {
 render(){
   console.log(this.state)
   return (
+    
    <div>
+     
   <form>
       <label>
         Sort by Category:

@@ -30,6 +30,7 @@ class Order extends React.Component {
               Order Confirmation Number:{' '}
               {Math.floor(Math.random() * 100000 + 1)}
             </h4>
+           
           </Col>
         </Row>
         <Row>

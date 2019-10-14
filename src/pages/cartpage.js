@@ -16,13 +16,17 @@ class CartPage extends React.Component {
           <Container>
             <Row>
               <Col sm="12" md={{ size: 6, offset: 3 }}>
-                <h2 className="center-text">Your cart is empty!</h2>
+                <h2 className="center-text"></h2>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <img src={sadBaby} alt="sad baby" className="baby-pic" />
               </Col>
             </Row>
             <Row>
               <Col sm="12" md={{ size: 6, offset: 3 }}>
-                <Link to="/">
+                <Link to="/products">
                   <Button className="black-button center-button">
                     Continue Shopping
                   </Button>

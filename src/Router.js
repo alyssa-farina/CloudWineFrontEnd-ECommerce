@@ -10,12 +10,15 @@ import LoginPage from './pages/loginpage';
 import ProductsPage from './pages/productspage';
 import ReturnsPage from './pages/returnspage';
 import QuizPage from './quizpage';
+import WineQuizPage from './pages/winequizpage';
+import WelcomePage from './pages/welcomepage';
 
 
 const Router = () => (
   <Switch>
-    <Route exact path="/" component={QuizPage} />
-    <Route exact path="/home" component={HomePage} />
+ 
+    <Route exact path="/" component={HomePage} />
+    <Route exact path="/home" component={WelcomePage} />
     <Route exact path="/cart" component={CartPage} />
     <Route exact path="/checkout" component={CheckoutPage} />
     <Route path="/orders/:id" component={OrdersPage} />
@@ -23,6 +26,7 @@ const Router = () => (
     <Route exact path="/login" component={LoginPage} />
     <Route exact path="/products" component={ProductsPage} />
     <Route exact path="/returns" component={ReturnsPage} />
+    <Route exact path="/winequiz" component={WineQuizPage} />
   </Switch>
 );
 

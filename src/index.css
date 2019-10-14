@@ -2,9 +2,9 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  /* background-image: url("https://i.pinimg.com/originals/19/39/bf/1939bfa036f576c8168edfd9c35fac70.jpg"); */
+  /* background-image: url("https://thumbs.gfycat.com/OffbeatKindAmphibian-size_restricted.gif"); */
     background-image: linear-gradient(to right, rgb(243, 146, 146) , rgb(131, 39, 39));
-  
+  background-size: cover;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
   -webkit-font-smoothing: antialiased;
@@ -13,12 +13,30 @@ body {
 
 }
 
+
+.question {
+  color: white;
+  text-align: center;
+}
+.answerOption {
+  background-color: beige;
+  color: maroon;
+  list-style: none;
+  width: 400px;
+  height: 60;
+  float: center;
+  
+
+}
 .form-signin{
   text-align: center;
-  color: beige;
-  background-color: #670f26;
+  color: rgb(106, 4, 31);
+  background-color: #b1cce3;
   width: 550px;
   height: 400px;
+}
+.results {
+  color: white;
 }
 
 code {
@@ -31,9 +49,14 @@ code {
   margin: 10px;
   width: 345px;
   color: maroon;
-  background-image: url("https://i.pinimg.com/originals/19/39/bf/1939bfa036f576c8168edfd9c35fac70.jpg"); 
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/588/591/non_2x/wine-bottle-wine-glass-tile-pattern-drink-wine-party-background-vector.jpg"); 
 
 
+}
+
+.divquiz {
+  background-color: #870754;
+  color: beige;
 }
 
 .page-container {
