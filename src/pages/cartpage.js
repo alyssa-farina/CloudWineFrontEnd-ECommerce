@@ -52,7 +52,7 @@ class CartPage extends React.Component {
             </Link>
             <div className="cart-spacing">
             {window.scrollTo(0, 0)}
-              {/* <h4>You might also like:</h4> */}
+              <h4>You might also like:</h4>
             </div>
             <Row className="content">
               {this.props.products

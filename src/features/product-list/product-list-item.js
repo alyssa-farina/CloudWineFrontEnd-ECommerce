@@ -69,7 +69,7 @@ class ProductListItem extends React.Component {
         <div className="product-list-item">
           <Card>
             <CardImg
-              height={200}
+              height={300}
               title={this.props.product.name}
               src={this.props.product.img}
               alt={this.props.product.name}
@@ -84,7 +84,7 @@ class ProductListItem extends React.Component {
                   className="white-button"
                   size="sm"
                   onClick={this.toggle}>
-                  Learn More
+                  View Details
                 </Button>
               </CardText>
               <CardSubtitle onClick={this.toggle}>
@@ -102,17 +102,9 @@ class ProductListItem extends React.Component {
                     {(this.props.cartItem && this.props.cartItem.quantity) || 0}
                     )
                   </Button>
+                  
                   <br />
-
-                  {/* {props.cartItem ? (
-                <div>
-                  <Button
-                    color="primary"
-                    onClick={() => props.removeFromCart(props.cartItem)}>
-                    Remove From Cart
-                  </Button>
-                </div>
-              ) : null} */}
+                  
                 </div>
               ) : null}
             </CardBody>

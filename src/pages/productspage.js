@@ -4,39 +4,42 @@ import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
 
 
 export default class Homepage extends React.Component {
+
   constructor(props) {
     super(props);
     this.state = {
-      selectName: ""
-    };
+      category: ''};
 
-    this.handleDropdownChange = this.handleDropdownChange.bind(this);
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  
- handleDropdownChange = e => {
-   e.preventDefault();
-   this.setState({ 
-     selectValue: [e.target.name]
-   })
- }
+  handleChange(event) {
+    this.setState({value: event.target.value});
+  }
+
+  handleSubmit(event) {
+    alert('The category is: ' + this.state.value);
+    event.preventDefault();
+  }
+
 render(){
-  console.log(this.state)
+console.log(this.state)
   return (
     
    <div>
      
-  <form>
+     <form onSubmit={this.handleSubmit}>
       <label>
         Sort by Category:
-        <select id="dropdown" onChange={this.handleDropdownChange}>
-          <option name="wine" value="wines">Wines</option>
+        <select value={this.state.value} onChange={this.handleChange}>
+          <option name="wine" value={this.state.value}>Wines</option>
           <option name="wineglasses" value="wineglasses">Wine Glasses</option>
           <option name="winetotes" value="winetotes">Wine Totes</option>
           <option name ="winetotes" value="wineart">Wine House Decor</option>
         </select>
       </label>
-     
+      <input type="submit" value="Submit" />
     </form>
     <Container>
       <Col>

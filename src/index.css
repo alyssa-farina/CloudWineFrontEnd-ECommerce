@@ -68,8 +68,13 @@ code {
 
 }
 
+.analyze {
+  display: inline-block;
+  right: 300px;
+}
+
 .divquiz {
-  background-color: #870754;
+  background-color: #87070762;
   color: beige;
 }
 

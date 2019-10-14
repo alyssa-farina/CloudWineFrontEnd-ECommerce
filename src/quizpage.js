@@ -122,15 +122,21 @@ class QuizPage extends Component {
   render() {
     return (
       
-      <div className="winealyzer" >
+      <div className="winealyzer" img src="">       
+     
       
         <div className="Wine-header">
        
+
+       
          <h2 className="wine" style={{ backgroundColor: "black", padding: "10px 20px", textAlign: "center", color: "white"}}>Winealyzer</h2>    
+         
         <h5 className="wineLogo" style={{backgroundColor: "black", adding: "10px 20px", textAlign: "center", color: "white"}}>Designed to analayze your mind & match you with the finest kind of wine!</h5>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
+        {/* <img className="analyze" src="https://loading.io/spinners/microsoft/lg.rotating-balls-spinner.gif" width="60px" height="90px"/> */}
       </div>
+      
     );
   }
 }

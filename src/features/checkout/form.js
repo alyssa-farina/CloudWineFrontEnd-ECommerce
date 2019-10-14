@@ -9,7 +9,7 @@ function CheckoutForm(props) {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div className="checkoutdiv">
           <Link to="/cart">
             <Button className="white-button top-spacing">Back to Cart</Button>
           </Link>
