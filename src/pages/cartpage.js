@@ -16,11 +16,7 @@ class CartPage extends React.Component {
           <Container>
             <Row>
               <Col sm="12" md={{ size: 6, offset: 3 }}>
-                <h2 className="center-text"></h2>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+                <h2 className="center-text">Your cart is empty!</h2>
                 <img src={sadBaby} alt="sad baby" className="baby-pic" />
               </Col>
             </Row>
@@ -71,7 +67,7 @@ class CartPage extends React.Component {
                     }
                   />
                 ))
-                .slice(30, 33)}
+                .slice(10, 13)}
             </Row>
           </div>
         )}

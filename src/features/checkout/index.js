@@ -28,6 +28,7 @@ function mapOrders(cart, currentUser) {
 
 function Checkout(props) {
   let sum = null;
+  
   {
     props.cart.map(item => (sum += item.price * item.quantity));
   }
@@ -43,9 +44,9 @@ function Checkout(props) {
               <tr>
                 <th>Item</th>
                 <th>Quantity</th>
-                
+                <th>Discount/Amount Saved Per Item!</th>
                 <th>Price</th>
-                <th>Discount</th>
+                
               </tr>
             </thead>
             <tbody>
@@ -53,15 +54,15 @@ function Checkout(props) {
                 <tr>
                   <td>{item.name}</td>
                   <td> {item.quantity}</td>
-
+                  <td>-${(item.price * item.quantity * 0.50 )}</td>
                   <td>${(item.price * item.quantity).toFixed(2)}</td>
-                  <td>${(item.price * item.quantity * 0.50 )}</td>
+                
                 </tr>
               ))}
                
               <tr>
                 <td className="bold-text">Total Price:</td>
-                <td />
+                {/* <td>${(sum.toFixed)}</td> */}
                 <td className="bold-text">${sum.toFixed(2)}</td>
               </tr>
             </tbody>
