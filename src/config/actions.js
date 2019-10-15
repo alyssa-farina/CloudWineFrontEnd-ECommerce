@@ -71,7 +71,7 @@ export const userLoginFetch = user => {
       });
   };
 };
-export const FILTER_PRODUCTS_BY_CATEGORY = 'FILTER_PRODUCTS_BY_CATEGORY';
+// export const FILTER_PRODUCTS_BY_CATEGORY = 'FILTER_PRODUCTS_BY_CATEGORY';
 export const logoutUser = () => ({
   type: 'LOGOUT_USER'
 });

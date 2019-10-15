@@ -49,7 +49,8 @@ class ProductListItem extends React.Component {
               alt={this.props.product.name}
               className="inline"
             />
-
+            <h3> Major 🗝 alert! 50% off
+              <br/>Sale price: $  {this.props.product.price / 2}  </h3>
             <p className="inline left-margin">
               {this.props.product.description}
             </p>

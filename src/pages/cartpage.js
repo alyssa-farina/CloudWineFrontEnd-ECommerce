@@ -62,7 +62,7 @@ class CartPage extends React.Component {
                     removeFromCart={this.props.removeFromCart}
                     cartItem={
                       this.props.cart.filter(
-                        cartItem => cartItem.id === product.id
+                        cartItem => cartItem.id === Math.random(product.id)
                       )[0]
                     }
                   />

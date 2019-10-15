@@ -15,11 +15,11 @@ export default class Homepage extends React.Component {
   }
 
   handleChange(event) {
-    this.setState({value: event.target.value});
+    this.setState({value: event.target.name});
   }
 
   handleSubmit(event) {
-    alert('The category is: ' + this.state.value);
+    alert('The category is: ' + this.state.name);
     event.preventDefault();
   }
 
@@ -29,18 +29,18 @@ console.log(this.state)
     
    <div>
      
-     <form onSubmit={this.handleSubmit}>
+     {/* <form onSubmit={this.handleSubmit}>
       <label>
         Sort by Category:
         <select value={this.state.value} onChange={this.handleChange}>
-          <option name="wine" value={this.state.value}>Wines</option>
+          <option name="wine" value={this.state.name}>Wines</option>
           <option name="wineglasses" value="wineglasses">Wine Glasses</option>
           <option name="winetotes" value="winetotes">Wine Totes</option>
           <option name ="winetotes" value="wineart">Wine House Decor</option>
         </select>
       </label>
       <input type="submit" value="Submit" />
-    </form>
+    </form> */}
     <Container>
       <Col>
       <ProductList/>

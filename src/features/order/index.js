@@ -29,6 +29,7 @@ class Order extends React.Component {
             <h4>
               Order Confirmation Number:{' '}
               {Math.floor(Math.random() * 100000 + 1)}
+              <p>Click here to view our return policy!</p>
             </h4>
            
            
@@ -43,6 +44,7 @@ class Order extends React.Component {
             />
             
           </Col>
+          
         </Row>
         <Row>
           <Col sm="12" md={{ size: 6, offset: 3 }}>

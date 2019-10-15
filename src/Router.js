@@ -12,6 +12,7 @@ import ReturnsPage from './pages/returnspage';
 import QuizPage from './quizpage';
 import WineQuizPage from './pages/winequizpage';
 import WelcomePage from './pages/welcomepage';
+// import winelocations from './pages/winelocations';
 
 
 const Router = () => (

@@ -21,7 +21,17 @@ function Result(props) {
       <br/>
         <a href="/home">Enter Cloud Wine</a>
        
+     
       </div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+      <div className="card">
+        
+         <img src="https://www.nuggetmarket.com/media/images/14/01/march-wines-of-the-month.gif" alt="Avatar" width="100%"/>
+       </div>
      
   
      

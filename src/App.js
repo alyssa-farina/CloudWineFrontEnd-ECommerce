@@ -25,7 +25,8 @@ import productList from './features/product-list';
 import ReturnsPage from './pages/returnspage'
 import WineQuizPage from './pages/winequizpage';
 import WelcomePage from './pages/welcomepage';
-import EventsPage from './pages/eventspage';
+
+
 
 
 
@@ -129,7 +130,7 @@ class App extends Component {
                       isOpen={this.state.dropdownOpen}
                       toggle={this.toggle}>
                       <DropdownToggle className="white-button" caret>
-                        Click Me
+                        🍷🥂
                       </DropdownToggle>
                       <DropdownMenu>
                         <DropdownItem header>
@@ -138,16 +139,17 @@ class App extends Component {
                         <DropdownItem onClick={this.handleRedirectShopClick}>
                           Shop🛍
                         </DropdownItem>
-                        <DropdownItem onClick={this.handleClick}>
-                          Log Out😭
-                        </DropdownItem>
+                       
                         <DropdownItem onClick={this.handleRedirectClick}>
                           Returns Info📦
                         </DropdownItem>
-                        <DropdownItem onClick={this.handleRedirectEventsClick}>
+                        <DropdownItem onClick={this.handleClick}>
+                          Log Out😭👋🏻
+                        </DropdownItem>
+                        {/* <DropdownItem onClick={this.handleRedirectEventsClick}>
                      
                           Events📆
-                        </DropdownItem>
+                        </DropdownItem> */}
                       </DropdownMenu>
                     </Dropdown>
                   </NavItem>

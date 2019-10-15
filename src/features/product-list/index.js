@@ -5,6 +5,21 @@ import fetchApi from '../../modules/fetch-api';
 import { Container, Row, Col } from 'reactstrap';
 
 class ProductList extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+     
+      search: ''
+    };
+}
+
+updateSearch(event) {
+  console.log(event.target.value)
+  this.setState({
+    search: event.target.value.substr(0, 20)
+  })
+}
+  
   componentDidMount() {
     const { loadProducts } = this.props;
     fetchApi('get', 'http://localhost:3000/products').then(
@@ -18,10 +33,22 @@ class ProductList extends React.Component {
 
   render() {
     const { removeFromCart, products, cart } = this.props;
-
+    let filteredProducts = this.props.products.filter(
+      (product) => {
+        return product.name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1;
+      }
+    )
     return (
+      <div>
+      <div className="searchbar">
+      <input type="text" placeholder="search by name"
+              value={this.state.search}
+              onChange={this.updateSearch.bind(this)}/>
+              </div>
+     
       <Row className="content">
-        {products.map((product, index) => (
+       
+        {filteredProducts.map((product, index) => (
           <ProductListItem
             product={product}
             key={index}
@@ -29,8 +56,13 @@ class ProductList extends React.Component {
             removeFromCart={removeFromCart}
             cartItem={cart.filter(cartItem => cartItem.id === product.id)[0]}
           />
+          
+         
+              
         ))}
+        
       </Row>
+      </div>
     );
   }
 }
