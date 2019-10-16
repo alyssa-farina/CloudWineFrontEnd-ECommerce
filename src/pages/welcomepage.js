@@ -7,8 +7,8 @@ export default class welcomepage extends Component {
         return (
             <Carousel>
                 <div>
-                    <a href="/products">Shop Now!</a>
-                    <img src="https://image.shutterstock.com/image-photo/50-off-discount-promotion-sale-260nw-1014416671.jpg" />
+                    <a href="/offer">Shop Now!</a>
+                    <img src="https://image.shutterstock.com/image-photo/50-off-discount-promotion-sale-260nw-1014416671.jpg" a href="signup"/>
                     
                 </div>
                 <div>

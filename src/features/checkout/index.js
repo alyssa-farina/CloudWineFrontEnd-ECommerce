@@ -31,6 +31,7 @@ function Checkout(props) {
   
   {
     props.cart.map(item => (sum += item.price * item.quantity));
+    console.log(props)
   }
   return (
     <Container>

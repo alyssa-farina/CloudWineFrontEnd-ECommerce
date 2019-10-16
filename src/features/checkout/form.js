@@ -8,6 +8,7 @@ function CheckoutForm(props) {
 
   return (
     <div>
+      
       <form onSubmit={handleSubmit}>
         <div className="checkoutdiv">
           <Link to="/cart">

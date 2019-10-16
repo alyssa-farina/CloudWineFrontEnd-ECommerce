@@ -67,8 +67,58 @@ code {
 
 
 }
+.champagne{
+  position: absolute;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
 
+.sip {
+  background-color: black;
+  text-align: center;
+}
 
+.events {
+  text-align: center;
+}
+
+.joinus {
+  text-align: center;
+  font-size: larger;
+  width: 600px;
+  background-color: beige;
+  color: maroon;
+}
+
+.location {
+  background-color: midnightblue;
+  color: pink;
+  width: 450px;
+}
+
+.whatweoffer {
+  background-color: #870754;
+  color: beige;
+  text-align: center;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bookbible {
+ float: right;
+ top: 50%;
+  width: 600px;
+  height: 560px;
+}
+
+.calendar {
+  background-color: red;
+  color: whitesmoke;
+  width: 450px;
+}
 
 .analyze {
   display: inline-block;

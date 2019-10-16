@@ -12,6 +12,9 @@ import ReturnsPage from './pages/returnspage';
 import QuizPage from './quizpage';
 import WineQuizPage from './pages/winequizpage';
 import WelcomePage from './pages/welcomepage';
+import OfferPage from './pages/offerpage';
+import eventspage from './pages/eventspage';
+
 // import winelocations from './pages/winelocations';
 
 
@@ -28,6 +31,9 @@ const Router = () => (
     <Route exact path="/products" component={ProductsPage} />
     <Route exact path="/returns" component={ReturnsPage} />
     <Route exact path="/winequiz" component={WineQuizPage} />
+    <Route exact path="/events" component={eventspage} />
+    <Route exact path="/offer" component={OfferPage} />
+   
   </Switch>
 );
 

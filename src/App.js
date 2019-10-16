@@ -25,6 +25,8 @@ import productList from './features/product-list';
 import ReturnsPage from './pages/returnspage'
 import WineQuizPage from './pages/winequizpage';
 import WelcomePage from './pages/welcomepage';
+import AddToCalendar from 'react-add-to-calendar';
+import EventsPage from './pages/eventspage';
 
 
 
@@ -79,11 +81,20 @@ class App extends Component {
   handleRedirectEventsClick = e => {
     window.location.href="/events"
   }
+  
 
   render() {
+    let event = {
+      title: 'Sip & Whine: A Book Club to Whine About',
+      description: 'This event is held for people who love reading, love wine, and love to whine about the books that they have read! The book we are discussing is The Wine Bible. So if you havent already, pick one up and get to reading',
+      location: 'New York, NY',
+      startTime: '2019-10-26T20:15:00-04:00',
+      endTime: '2019-10-26T21:45:00-04:00'
+  };
     console.log(this.state)
     return (
       <div>
+        
         <Navbar
           color="white"
           light
@@ -116,8 +127,9 @@ class App extends Component {
                     )
                   </NavLink>
                 ) : (
-                  <NavLink tag={RRNavLink} to="/login">
-                    SIGN IN / REGISTER
+                  <NavLink tag={RRNavLink} to="/events">
+                    Events📆
+                   
                   </NavLink>
                 )}
                   
@@ -139,6 +151,9 @@ class App extends Component {
                         <DropdownItem onClick={this.handleRedirectShopClick}>
                           Shop🛍
                         </DropdownItem>
+                        <DropdownItem>
+                     
+                        </DropdownItem>
                        
                         <DropdownItem onClick={this.handleRedirectClick}>
                           Returns Info📦
@@ -158,6 +173,8 @@ class App extends Component {
             </Nav>
           </Collapse>
         </Navbar>
+        
+        
         <Router />
        
        
