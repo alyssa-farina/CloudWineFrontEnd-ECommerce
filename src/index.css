@@ -109,13 +109,29 @@ code {
 
 .bookbible {
  float: right;
- top: 50%;
+ top: 30%;
   width: 600px;
   height: 560px;
 }
 
+.aboutpage {
+  text-align: center;
+  font-family: monospace;
+}
+.bio {
+  background-color: lightpink;
+  color: maroon;
+  width: 600px;
+  font-size: x-large;
+ position: absolute;
+ left: 435px;
+ right: 900px;
+ font-family: monospace;
+
+}
+
 .calendar {
-  background-color: red;
+  background-color: rgb(221, 96, 96);
   color: whitesmoke;
   width: 450px;
 }
@@ -238,7 +254,7 @@ code {
 
   .black-button {
     background-color: #292929;
-    color: #fff;
+    color: rgb(255, 255, 255);
     border-radius: 0px;
     border-color: #292929;
   }
@@ -329,8 +345,12 @@ code {
 }
 
 .lower-content-50 {
+  background-color: rgba(148, 0, 0, 0.386);
+  color: maroon;
   margin-top: 50px;
 }
+
+
 
 #navbar-custom {
   background-color:black;

@@ -8,9 +8,32 @@ function CheckoutForm(props) {
 
   return (
     <div>
+   
       
       <form onSubmit={handleSubmit}>
         <div className="checkoutdiv">
+          <hr/>
+          <br/>
+        <label>
+        Name on card:
+      <input type="text"/>
+      </label>
+    
+      <label>
+        Credit Card #:
+      <input type="telephone"/>
+      </label>
+      <label>
+        Expiration Date:
+      <input type="date"/>
+      </label>
+      <label>
+        CVC:
+      <input type="password"/>
+      </label>
+
+      <br/>
+
           <Link to="/cart">
             <Button className="white-button top-spacing">Back to Cart</Button>
           </Link>

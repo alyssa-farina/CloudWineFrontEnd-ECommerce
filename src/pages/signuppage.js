@@ -19,7 +19,7 @@ class Signup extends Component {
   handleSubmit = event => {
     event.preventDefault();
     let a = this.props.userPostFetch(this.state);
-    let b = this.props.history.push('/cart');
+    let b = this.props.history.push('/home');
     return a && b;
   };
 

@@ -32,13 +32,13 @@ class CartPage extends React.Component {
           </Container>
         ) : (
           <div className="lower-content-50">
-            <h2>Cart</h2>
+            <h2 className="cartheader">Cart</h2>
             <Cart />
           </div>
         )}
         {this.props.cart.length === 0 ? null : (
           <div>
-            <Link to="/">
+            <Link to="/products">
               <Button className="white-button top-spacing">
                 Continue Shopping
               </Button>

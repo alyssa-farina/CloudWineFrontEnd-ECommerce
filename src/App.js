@@ -27,6 +27,7 @@ import WineQuizPage from './pages/winequizpage';
 import WelcomePage from './pages/welcomepage';
 import AddToCalendar from 'react-add-to-calendar';
 import EventsPage from './pages/eventspage';
+import AboutPage from './pages/aboutpage';
 
 
 
@@ -41,6 +42,7 @@ class App extends Component {
     this.state = {
       collapsed: true,
       dropdownOpen: false,
+    
     };
   }
 
@@ -58,6 +60,7 @@ class App extends Component {
 
   componentDidMount = () => {
     this.props.getProfileFetch();
+    console.log(this.props.currentUser)
   };
 
   handleClick = event => {
@@ -81,16 +84,19 @@ class App extends Component {
   handleRedirectEventsClick = e => {
     window.location.href="/events"
   }
+  handleRedirectAboutClick = e => {
+    window.location.href="/about"
+  }
   
 
   render() {
-    let event = {
-      title: 'Sip & Whine: A Book Club to Whine About',
-      description: 'This event is held for people who love reading, love wine, and love to whine about the books that they have read! The book we are discussing is The Wine Bible. So if you havent already, pick one up and get to reading',
-      location: 'New York, NY',
-      startTime: '2019-10-26T20:15:00-04:00',
-      endTime: '2019-10-26T21:45:00-04:00'
-  };
+  //   let event = {
+  //     title: 'Sip & Whine: A Book Club to Whine About',
+  //     description: 'This event is held for people who love reading, love wine, and love to whine about the books that they have read! The book we are discussing is The Wine Bible. So if you havent already, pick one up and get to reading',
+  //     location: 'New York, NY',
+  //     startTime: '2019-10-26T20:15:00-04:00',
+  //     endTime: '2019-10-26T21:45:00-04:00'
+  // };
     console.log(this.state)
     return (
       <div>
@@ -112,7 +118,7 @@ class App extends Component {
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem className="nav-spacing">
-                <NavLink tag={RRNavLink} to="/">
+                <NavLink tag={RRNavLink} to="/home">
                   HOME
                 </NavLink>
               </NavItem>
@@ -127,9 +133,8 @@ class App extends Component {
                     )
                   </NavLink>
                 ) : (
-                  <NavLink tag={RRNavLink} to="/events">
-                    Events📆
-                   
+                  <NavLink tag={RRNavLink} to="/login">
+                    LOGIN/SIGN UP
                   </NavLink>
                 )}
                   
@@ -142,11 +147,15 @@ class App extends Component {
                       isOpen={this.state.dropdownOpen}
                       toggle={this.toggle}>
                       <DropdownToggle className="white-button" caret>
-                        🍷🥂
+                        My Account
                       </DropdownToggle>
                       <DropdownMenu>
                         <DropdownItem header>
                           Welcome, {this.props.currentUser.username}
+                        </DropdownItem>
+                        <DropdownItem onClick={this.handleRedirectAboutClick}
+                        currentUser={this.props.currentUser.username}>
+                          About Cloud Wine☁️
                         </DropdownItem>
                         <DropdownItem onClick={this.handleRedirectShopClick}>
                           Shop🛍
@@ -158,13 +167,14 @@ class App extends Component {
                         <DropdownItem onClick={this.handleRedirectClick}>
                           Returns Info📦
                         </DropdownItem>
+                       
+                        <DropdownItem onClick={this.handleRedirectEventsClick}>
+                     
+                          Events📆
+                        </DropdownItem>
                         <DropdownItem onClick={this.handleClick}>
                           Log Out😭👋🏻
                         </DropdownItem>
-                        {/* <DropdownItem onClick={this.handleRedirectEventsClick}>
-                     
-                          Events📆
-                        </DropdownItem> */}
                       </DropdownMenu>
                     </Dropdown>
                   </NavItem>
