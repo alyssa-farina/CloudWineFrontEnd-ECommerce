@@ -376,3 +376,21 @@ h2 {
   color: white;
 }
 
+.carddiv {
+  width: 700px;
+  color: mediumvioletred;
+  background-color: oldlace;
+  display: -ms-inline-flexbox;
+}
+
+.wineimage {
+  width: 600px;
+  height: 700px;
+  float: right;
+ 
+}
+
+.calendar {
+  background-color: maroon;
+  color: pink;
+}

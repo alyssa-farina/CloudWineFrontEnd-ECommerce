@@ -22,7 +22,6 @@ import {
 } from 'reactstrap';
 import shoppinglogo from './shoppinglogo.png';
 import productList from './features/product-list';
-import ReturnsPage from './pages/returnspage'
 import WineQuizPage from './pages/winequizpage';
 import WelcomePage from './pages/welcomepage';
 import AddToCalendar from 'react-add-to-calendar';
@@ -60,7 +59,7 @@ class App extends Component {
 
   componentDidMount = () => {
     this.props.getProfileFetch();
-    console.log(this.props.currentUser)
+    // console.log(this.props.currentUser)
   };
 
   handleClick = event => {
@@ -69,15 +68,13 @@ class App extends Component {
     let a = localStorage.removeItem('token');
     // Remove the user object from the Redux store
     let b = this.props.logoutUser();
-    console.log(this.props.history);
+    // console.log(this.props.history);
     let c = this.props.history.push('/login');
     window.location.reload();
     return a && b && c;
   };
 
-  handleRedirectClick = e => {
-    window.location.href="/returns"
-  }
+
   handleRedirectShopClick = e => {
     window.location.href="/products"
   }
@@ -97,7 +94,7 @@ class App extends Component {
   //     startTime: '2019-10-26T20:15:00-04:00',
   //     endTime: '2019-10-26T21:45:00-04:00'
   // };
-    console.log(this.state)
+    // console.log(this.state)
     return (
       <div>
         
@@ -163,11 +160,7 @@ class App extends Component {
                         <DropdownItem>
                      
                         </DropdownItem>
-                       
-                        <DropdownItem onClick={this.handleRedirectClick}>
-                          Returns Info📦
-                        </DropdownItem>
-                       
+                      
                         <DropdownItem onClick={this.handleRedirectEventsClick}>
                      
                           Events📆

@@ -8,7 +8,6 @@ import OrdersPage from './pages/orderspage';
 import SignUpPage from './pages/signuppage';
 import LoginPage from './pages/loginpage';
 import ProductsPage from './pages/productspage';
-import ReturnsPage from './pages/returnspage';
 import QuizPage from './quizpage';
 import WineQuizPage from './pages/winequizpage';
 import WelcomePage from './pages/welcomepage';
@@ -31,7 +30,6 @@ const Router = () => (
     <Route exact path="/signup" component={SignUpPage} />
     <Route exact path="/login" component={LoginPage} />
     <Route exact path="/products" component={ProductsPage} />
-    <Route exact path="/returns" component={ReturnsPage} />
     <Route exact path="/winequiz" component={WineQuizPage} />
     <Route exact path="/events" component={eventspage} />
     <Route exact path="/offer" component={OfferPage} />

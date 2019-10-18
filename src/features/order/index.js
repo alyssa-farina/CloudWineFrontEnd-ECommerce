@@ -20,7 +20,7 @@ class Order extends React.Component {
 
   renderOrder() {
     const { order } = this.state;
-    console.log(order);
+    // console.log(order);
     return (
       <Container>
         <Row>
