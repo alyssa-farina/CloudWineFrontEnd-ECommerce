@@ -115,7 +115,7 @@ class App extends Component {
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem className="nav-spacing">
-                <NavLink tag={RRNavLink} to="/home">
+                <NavLink tag={RRNavLink} to="/home" className="home">
                   HOME
                 </NavLink>
               </NavItem>

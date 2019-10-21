@@ -14,7 +14,6 @@ import WelcomePage from './pages/welcomepage';
 import OfferPage from './pages/offerpage';
 import eventspage from './pages/eventspage';
 import aboutpage from './pages/aboutpage';
-import Wineries from './pages/Wineries';
 
 // import winelocations from './pages/winelocations';
 
@@ -34,7 +33,6 @@ const Router = () => (
     <Route exact path="/events" component={eventspage} />
     <Route exact path="/offer" component={OfferPage} />
     <Route exact path="/about" component={aboutpage} />
-    <Route exact path="/wineries" component={Wineries} />
    
   </Switch>
 );

@@ -16,6 +16,21 @@ body {
   background-color: rgb(113, 2, 40);
 
 }
+
+.usernameinput {
+  width: 250px;
+}
+
+.passwordinput {
+  width: 250px;
+}
+
+.loginbtn {
+  width: 80px;
+  background-color: #870754;
+  color: white;
+}
+
 .linktologin {
   background-color: rgb(113, 2, 40);
 
@@ -66,6 +81,12 @@ code {
   background-image: url("https://static.vecteezy.com/system/resources/previews/000/588/591/non_2x/wine-bottle-wine-glass-tile-pattern-drink-wine-party-background-vector.jpg"); 
 
 
+}
+
+.checkoutdiv {
+  background-color: rgba(7, 1, 130, 0.468);
+  color: rgb(255, 246, 246);
+  
 }
 .champagne{
   position: absolute;
@@ -155,11 +176,16 @@ code {
 
 }
 
-
+.home {
+  color: magenta;
+}
   .nav-spacing {
       color: #c3f8ff;
       padding:0 12px;
       line-height:40px;   
+  }
+  .navbar-custom{
+    color: magenta;
   }
 
   .nav-spacing-name {
@@ -227,7 +253,7 @@ code {
 
   a:hover {
     text-decoration: none;
-    color: #292929;
+    color: #ee7f7f;
   }
 
   .jumbo-head-text {
@@ -242,14 +268,14 @@ code {
   }
 
   .white-button {
-    background-color: rgba(233, 254, 255, 0.454);
-    color: #870754;
+    background-color: rgba(134, 0, 94, 0.109);
+    color: #000000;
     border-radius: 0px;
   }
 
   .white-button:hover {
-    background-color: #292929;
-    color: rgb(147, 235, 255);
+    background-color: #8f0032;
+    color: rgb(254, 208, 205);
   }
 
   .black-button {
@@ -381,6 +407,8 @@ h2 {
   color: mediumvioletred;
   background-color: oldlace;
   display: -ms-inline-flexbox;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
 }
 
 .wineimage {
@@ -393,4 +421,8 @@ h2 {
 .calendar {
   background-color: maroon;
   color: pink;
+}
+
+.navbar-header {
+  background-color: #F16E10;
 }

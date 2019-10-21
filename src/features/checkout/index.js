@@ -30,6 +30,7 @@ function Checkout(props) {
   let sum = null;
   {
     props.cart.map(item => (sum += item.price * item.quantity));
+    
   }
   return (
     <Container>
@@ -44,6 +45,7 @@ function Checkout(props) {
                 <th>Item</th>
                 <th>Quantity</th>
                 <th>Price</th>
+                <th>Amount Saved</th>
               </tr>
             </thead>
             <tbody>
@@ -51,13 +53,14 @@ function Checkout(props) {
                 <tr>
                   <td>{item.name}</td>
                   <td> {item.quantity}</td>
-                  <td>${(item.price * item.quantity).toFixed(2)}</td>
+                  <td>${(item.price * item.quantity)}</td>
+                  <td>${item.price * item.quantity / 2}</td>
                 </tr>
               ))}
               <tr>
                 <td className="bold-text">Total Price:</td>
                 <td />
-                <td className="bold-text">${sum.toFixed(2)}</td>
+                <td className="bold-text">${sum}</td>
               </tr>
             </tbody>
           </Table>
