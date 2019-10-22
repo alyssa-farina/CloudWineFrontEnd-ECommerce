@@ -60,7 +60,7 @@ function Checkout(props) {
               <tr>
                 <td className="bold-text">Total Price:</td>
                 <td />
-                <td className="bold-text">${sum}</td>
+                <td className="bold-text">${sum / 2}</td>
               </tr>
             </tbody>
           </Table>

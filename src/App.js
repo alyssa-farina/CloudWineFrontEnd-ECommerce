@@ -137,8 +137,11 @@ class App extends Component {
                   
            
               </NavItem>
+            
               {this.props.currentUser.username ? (
+                
                 <NavLink>
+                  
                   <NavItem className="nav-spacing">
                     <Dropdown
                       isOpen={this.state.dropdownOpen}
@@ -148,8 +151,11 @@ class App extends Component {
                       </DropdownToggle>
                       <DropdownMenu>
                         <DropdownItem header>
+                          <b>
                           Welcome, {this.props.currentUser.username}
+                          </b>
                         </DropdownItem>
+                        
                         <DropdownItem onClick={this.handleRedirectAboutClick}
                         currentUser={this.props.currentUser.username}>
                           About Cloud Wine☁️
