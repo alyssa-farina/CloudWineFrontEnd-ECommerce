@@ -16,6 +16,8 @@ function CheckoutForm(props) {
           
           <hr/>
           <br/>
+          <h2>Payment Details:</h2>
+          <br/>
         <label> <b>
         Name on card:
       <input type="text"/>

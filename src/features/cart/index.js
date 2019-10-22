@@ -15,7 +15,7 @@ function Cart(props) {
     <div>
       <Table light>
         <thead>
-          <tr>
+          <tr className="cartpagemenu">
             <th> </th>
             <th>Item</th>
             <th>Quantity</th>
@@ -32,9 +32,9 @@ function Cart(props) {
                   <i className="material-icons">clear</i>
                 </Button>
               </td>
-              <td>{item.name}</td>
+              <td className="itemname">{item.name}</td>
 
-              <td>
+              <td className="itemquant">
                 {item.quantity}
                 <ButtonGroup>
                   <Button
@@ -50,7 +50,7 @@ function Cart(props) {
                   </Button>
                 </ButtonGroup>
               </td>
-              <td>${(item.price * item.quantity).toFixed(2)}</td>
+              <td className="itemprice">${(item.price * item.quantity).toFixed(2)}</td>
             </tr>
           ))}
         </tbody>

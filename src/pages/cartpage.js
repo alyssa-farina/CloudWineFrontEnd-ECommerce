@@ -14,9 +14,13 @@ class CartPage extends React.Component {
         {console.log(this.props.cart)}
         {this.props.cart.length === 0 ? (
           <Container>
+            <br/>
+            <br/>
             <Row>
               <Col sm="12" md={{ size: 6, offset: 3 }}>
                 <h2 className="center-text"></h2>
+                <br/>
+                <br/>
                 <img src={sadBaby} alt="sad baby" className="baby-pic" />
               </Col>
             </Row>
@@ -48,7 +52,7 @@ class CartPage extends React.Component {
             </Link>
             <div className="cart-spacing">
             {window.scrollTo(0, 0)}
-              <h4>You might also like:</h4>
+              <h4 className="suggest">You might also like:</h4>
             </div>
             <Row className="content">
               {this.props.products

@@ -29,12 +29,13 @@ export default class eventspage extends Component {
         console.log(this.state.events)
         return  (
             <div >
-                 <h1 align="center">Wine Events in NYC This Weekend & Upcoming Week</h1>
+                 <h1 className="wineevents" align="center">Wine Events in NYC This Weekend & Upcoming Week</h1>
                  <br/>
                  <br/>
                  <img className="wineimage" src="http://barnoawinebar.com/wp-content/uploads/2018/09/4943309130_016cd1b310_o.jpeg"/>
-                 
+                 <h4 className="addtocalendar">
                  <AddToCalendar className="calendar"event={event} />
+                 </h4>
                 {
                     this.state.events.map(event => {
                         console.log("name:",event.name)

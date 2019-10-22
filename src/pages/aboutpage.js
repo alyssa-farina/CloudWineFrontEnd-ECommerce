@@ -4,7 +4,7 @@ export default function aboutpage(props) {
     // console.log(props)
     return (
         <div className="aboutpage">
-            <h1 className="welcome">Welcome to Cloud Wine</h1>
+            <h1 className="welcomecwine">Welcome to Cloud Wine</h1>
             <br/>
             <br/>
             <p className="bio">

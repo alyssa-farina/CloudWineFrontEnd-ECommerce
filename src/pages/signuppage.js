@@ -30,7 +30,7 @@ class Signup extends Component {
           <form
             className="form-signin lower-content"
             onSubmit={this.handleSubmit}>
-            <h1 className="h3 mb-3 font-weight-normal">Sign Up</h1>
+            <h1 className="h3 mb-3 font-weight-normal">Create an Account</h1>
 
             <label className="sr-only">Username</label>
             <input

@@ -38,9 +38,9 @@ class Order extends React.Component {
         <Row>
           <Col sm="12" md={{ size: 6, offset: 3 }}>
             <img
-              src={"https://media2.giphy.com/media/3oz8xEXgWWnUXIQI4o/giphy.gif"}
-              alt="man on scooter"
-              className="scooter-img"
+              src={"https://cdn.dribbble.com/users/2120324/screenshots/4228081/valentine_wine.gif"}
+              alt="cheers"
+              className="cheers"
             />
             
           </Col>

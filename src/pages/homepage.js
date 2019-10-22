@@ -9,7 +9,7 @@ export default function Homepage(props) {
         <Jumbotron className="jumbo-image small-jumbo-image">
           <h1 className="welcomeheader">Welcome</h1>
           <p className="quizinfo">
-           <a href="/winequiz">Click here to be WINEALYZED</a>
+           <a className="winequizz" href="/winequiz">Click here to be WINEALYZED</a>
           </p>
           
         </Jumbotron>

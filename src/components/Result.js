@@ -19,7 +19,7 @@ function Result(props) {
         You prefer <strong className="results">{props.quizResult}</strong>!
       <br/>
       <br/>
-        <a href="/home">Enter Cloud Wine</a>
+        <a className="entercloudwine"href="/signup">Enter Cloud Wine</a>
        
      
       </div>

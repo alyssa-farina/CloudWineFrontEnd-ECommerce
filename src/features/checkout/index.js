@@ -41,7 +41,7 @@ function Checkout(props) {
           <h2>Checkout</h2>
           <Table light>
             <thead>
-              <tr>
+              <tr className="cartpagemenu">
                 <th>Item</th>
                 <th>Quantity</th>
                 <th>Price</th>
@@ -51,10 +51,10 @@ function Checkout(props) {
             <tbody>
               {props.cart.map(item => (
                 <tr>
-                  <td>{item.name}</td>
-                  <td> {item.quantity}</td>
-                  <td>${(item.price * item.quantity)}</td>
-                  <td>${item.price * item.quantity / 2}</td>
+                  <td className="itemname">{item.name}</td>
+                  <td className="itemquant"> {item.quantity}</td>
+                  <td className="itemprice">${(item.price * item.quantity)}</td>
+                  <td className="itemprice">${item.price * item.quantity / 2}</td>
                 </tr>
               ))}
               <tr>

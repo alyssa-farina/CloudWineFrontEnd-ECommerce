@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-image: url("https://data.whicdn.com/images/272396511/original.gif");
+  background-image: url("https://i.pinimg.com/originals/76/d8/fa/76d8fa8a2deb21e336e8231d54a46676.jpg");
     /* background-image: linear-gradient(to right, rgb(243, 146, 146) , rgb(131, 39, 39)); */
   background-size: cover;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -12,8 +12,20 @@ body {
 
 
 }
+
+.wineevents {
+  color: beige;
+}
+.addtocalendar {
+  color: beige;
+}
+
+.searchinput {
+  color: beige;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .linktosignup {
-  background-color: rgb(113, 2, 40);
+  background-color: rgb(255, 242, 247);
 
 }
 
@@ -32,23 +44,27 @@ body {
 }
 
 .linktologin {
-  background-color: rgb(113, 2, 40);
+  background-color: rgb(252, 232, 239);
 
 }
 
 .resultsdiv {
-  background-color: rgb(106, 0, 5);
-  color: rgb(187, 204, 240);
+  background-color: rgb(141, 1, 8);
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
+.entercloudwine {
+  color: red;
+  background-color: beige;
+}
 .question {
   color: white;
   text-align: center;
 }
 .answerOption {
-  background-color: beige;
-  color: maroon;
+  background-color: rgba(255, 255, 255, 0.783);
+  color: rgb(0, 0, 0);
   list-style: none;
   width: 400px;
   height: 60;
@@ -58,8 +74,8 @@ body {
 }
 .form-signin{
   text-align: center;
-  color: rgb(106, 4, 31);
-  background-color: #b1cce3;
+  color: rgb(0, 0, 0);
+  background-color: #fffff870;
   width: 550px;
   height: 400px;
   
@@ -77,14 +93,18 @@ code {
   padding: 20px 30px;
   margin: 10px;
   width: 345px;
-  color: maroon;
+  color: rgb(194, 0, 0);
   background-image: url("https://static.vecteezy.com/system/resources/previews/000/588/591/non_2x/wine-bottle-wine-glass-tile-pattern-drink-wine-party-background-vector.jpg"); 
 
 
 }
 
+.text-center{
+  color: beige;
+}
+
 .checkoutdiv {
-  background-color: rgba(7, 1, 130, 0.468);
+  background-color: rgba(0, 0, 0, 0.728);
   color: rgb(255, 246, 246);
   
 }
@@ -201,15 +221,24 @@ code {
     margin-left: 8px;
     margin-right: 8px;
   }
+  
+  .shopnow {
+    background-size: cover;
+  }
 
   .bold-text {
     font-weight: bold;
   }
 
-  .scooter-img {
+  .cheers {
+    color: black;
     position: absolute;
     width: 500px;
     height: 500px;
+  }
+
+  .text-center{
+    color: rgb(255, 34, 34);
   }
 
   .text-center {
@@ -220,10 +249,26 @@ code {
     justify-content: center;
   }
 
+  .welcomeheader {
+    color: beige;
+    font-family: fantasy;
+  }
+
+  .cartpagemenu{
+    color: beige;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .winequizz{
+    color: white;
+    background-color: maroon;
+  }
+
 
  
     .jumbo-image {
-      background-image: url("https://thumbs.gfycat.com/BoldFlusteredIrishdraughthorse-size_restricted.gif");
+      background-image: url(./cwine.png);
       background-size: cover; 
       height: 850px;
       padding-left: 100px;
@@ -253,7 +298,7 @@ code {
 
   a:hover {
     text-decoration: none;
-    color: #ee7f7f;
+    color: #b30000;
   }
 
   .jumbo-head-text {
@@ -268,9 +313,43 @@ code {
   }
 
   .white-button {
-    background-color: rgba(134, 0, 94, 0.109);
-    color: #000000;
+    align-content: inherit;
+    background-color: #8f0032;
+    color: white;
     border-radius: 0px;
+  }
+
+  .welcomecwine {
+    color: beige;
+    font-family: cursive;
+  }
+
+  .itemname {
+    color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .itemquant {
+    color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .itemprice {
+
+    color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .bold-text{
+    color: beige
+  }
+
+  .trheader {
+    color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  .suggest {
+    color: bisque;
   }
 
   .white-button:hover {
@@ -404,7 +483,7 @@ h2 {
 
 .carddiv {
   width: 700px;
-  color: mediumvioletred;
+  color: rgb(0, 0, 0);
   background-color: oldlace;
   display: -ms-inline-flexbox;
   font-family: Verdana, Geneva, Tahoma, sans-serif;

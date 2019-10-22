@@ -28,7 +28,7 @@ console.log(this.state)
   return (
     
    <div>
-     <p>Use this search bar to show you products like 'Pinot Noir', 'Chardonnay' 'Wineg glass', 'Wine Totes' </p>
+     <p className="searchinput">Use this search bar to show you products like 'Pinot Grigio', 'Cabernet', 'Pinot Noir', 'Chardonnay', 'Wine glass', 'Wine Totes' </p>
      
      {/* <form onSubmit={this.handleSubmit}>
       <label>

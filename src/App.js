@@ -98,19 +98,21 @@ class App extends Component {
     return (
       <div>
         
-        <Navbar
-          color="white"
+        <Navbar color="white"
           light
           expand="md"
           sticky="top"
           className="navbar-custom">
-          <NavbarBrand>
-            <NavItem tag={RRNavLink} to="/" className="logo">
-              <img src={shoppinglogo} alt="shoplogo" height="60" />
+             <NavItem tag={RRNavLink} to="/" className="logo">
+               Cloud Wine
+              <img src={shoppinglogo} alt="shoplogo" height="90" />           
+              </NavItem>
+          {/* <NavbarBrand>
+           
               Cloud Wine 
               <h6 className="shopping">Shopping & Wine Make Everything Fine</h6>
             </NavItem>
-          </NavbarBrand>
+          </NavbarBrand> */}
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav className="ml-auto" navbar>
