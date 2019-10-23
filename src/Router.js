@@ -8,7 +8,6 @@ import OrdersPage from './pages/orderspage';
 import SignUpPage from './pages/signuppage';
 import LoginPage from './pages/loginpage';
 import ProductsPage from './pages/productspage';
-import QuizPage from './quizpage';
 import WineQuizPage from './pages/winequizpage';
 import WelcomePage from './pages/welcomepage';
 import OfferPage from './pages/offerpage';

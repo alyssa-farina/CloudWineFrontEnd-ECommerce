@@ -29,7 +29,8 @@ class Order extends React.Component {
             <h4>
               Order Confirmation Number:{' '}
               {Math.floor(Math.random() * 100000 + 1)}
-              <p>Click here to view our return policy!</p>
+
+          
             </h4>
            
            

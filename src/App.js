@@ -6,27 +6,24 @@ import { getProfileFetch, logoutUser } from './config/actions';
 import Router from './Router';
 import {
   Navbar,
-  NavbarBrand,
+ 
   Nav,
   NavItem,
   NavLink,
-  Container,
-  Button,
   NavbarToggler,
   Collapse,
   Dropdown,
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  Jumbotron
+
 } from 'reactstrap';
 import shoppinglogo from './shoppinglogo.png';
-import productList from './features/product-list';
-import WineQuizPage from './pages/winequizpage';
-import WelcomePage from './pages/welcomepage';
-import AddToCalendar from 'react-add-to-calendar';
-import EventsPage from './pages/eventspage';
-import AboutPage from './pages/aboutpage';
+
+
+
+
+
 
 
 
@@ -87,6 +84,7 @@ class App extends Component {
   
 
   render() {
+ 
   //   let event = {
   //     title: 'Sip & Whine: A Book Club to Whine About',
   //     description: 'This event is held for people who love reading, love wine, and love to whine about the books that they have read! The book we are discussing is The Wine Bible. So if you havent already, pick one up and get to reading',

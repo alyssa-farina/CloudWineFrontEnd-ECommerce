@@ -13,7 +13,7 @@ export default function offerpage() {
         <div className="champagne">
         <a href="/signup">
         
-        <img src="https://thumbs.gfycat.com/RightTalkativeGrayreefshark-size_restricted.gif" width="100%" height="650px"/>
+        <img src="https://thumbs.gfycat.com/RightTalkativeGrayreefshark-size_restricted.gif" alt="offers" width="100%" height="650px"/>
         
 </a>
        
