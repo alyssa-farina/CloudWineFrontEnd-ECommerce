@@ -49,13 +49,21 @@ class ProductListItem extends React.Component {
               alt={this.props.product.name}
               className="inline"
             />
-            <h3> Major 🗝 alert! 50% off
-              <br/>Sale price: $  {this.props.product.price / 2}  </h3>
+          
+            
+            
+
+              <br/>
+              <hr/>
+             
+           <br/>
             <p className="inline left-margin">
               {this.props.product.description}
             </p>
           </ModalBody>
           <ModalFooter>
+          <h6 className="majorkey"> Major 🔑 alert! 50% off </h6>
+          <p className="saleprice"> Sale price: $  {this.props.product.price / 2.0}</p> 
             {this.props.currentUser.username ? (
               <Button
                 className="white-button"
@@ -70,7 +78,7 @@ class ProductListItem extends React.Component {
         <div className="product-list-item">
           <Card>
             <CardImg
-              height={300}
+              height={280}
               title={this.props.product.name}
               src={this.props.product.img}
               alt={this.props.product.name}
@@ -82,7 +90,7 @@ class ProductListItem extends React.Component {
               </CardTitle>
               <CardText>
                 <Button
-                  className="white-button"
+                  className="detailsbtn"
                   size="sm"
                   onClick={this.toggle}>
                   View Details
@@ -97,7 +105,7 @@ class ProductListItem extends React.Component {
                   <br />
                   <Button
                     block
-                    className="white-button"
+                    className="cartbtn"
                     onClick={() => this.props.addToCart(this.props.product)}>
                     Add to Cart (
                     {(this.props.cartItem && this.props.cartItem.quantity) || 0}

@@ -16,7 +16,11 @@ function Result(props) {
       transitionAppearTimeout={500}
     >
       <div className = "resultsdiv">
-        You prefer <strong className="results">{props.quizResult}</strong>!
+        
+        The Type of Wine You Should Try Is: 
+        <br/>
+        <br/>
+        <strong className="results">{props.quizResult}</strong>!
       <br/>
       <br/>
         <a className="entercloudwine"href="/signup">Enter Cloud Wine</a>
@@ -28,9 +32,9 @@ function Result(props) {
 <br/>
 <br/>
 <br/>
-      <div className="card">
+      <div className="carddd">
         
-         <img src="https://www.nuggetmarket.com/media/images/14/01/march-wines-of-the-month.gif" alt="Avatar" width="100%"/>
+         <img src="https://media.giphy.com/media/8cjhtzkIIwe6HNWLxw/giphy.gif" alt="Avatar"  height="400px" width="70%"/>
        </div>
      
   

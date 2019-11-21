@@ -15,7 +15,7 @@ var quizQuestions = [
                 content: "Neutral"
             },
             {
-                type: "Pinot Noir:  America’s most popular grape, people who are matched with Pinot Noir re the center of their social group! This lighter bodied red wine has a higher acidity and a soft, smooth finish. The wine has a complex flavor profile that includes notes of red fruit (cherry, cranberry), red floral (rose), and vegetal notes of beet, rhubarb or mushroom. Pair Pinot Noir with chicken, pork, veal, duck, cured meat, soft cheeses, and medium-firm cheese like gruyere",                
+                type: "Pinot Noir:  America’s most popular grape, people who are matched with Pinot Noir are the center of their social group! This lighter bodied red wine has a higher acidity and a soft, smooth finish. The wine has a complex flavor profile that includes notes of red fruit (cherry, cranberry), red floral (rose), and vegetal notes of beet, rhubarb or mushroom. Pair Pinot Noir with chicken, pork, veal, duck, cured meat, soft cheeses, and medium-firm cheese like gruyere",                
                 content: "Disagree"
             },
             {
@@ -46,7 +46,7 @@ var quizQuestions = [
                 content: "Disagree"
             },
             {
-                type: "Pinot Noir:  America’s most popular grape, people who are matched with Pinot Noir re the center of their social group! This lighter bodied red wine has a higher acidity and a soft, smooth finish. The wine has a complex flavor profile that includes notes of red fruit (cherry, cranberry), red floral (rose), and vegetal notes of beet, rhubarb or mushroom. Pair Pinot Noir with chicken, pork, veal, duck, cured meat, soft cheeses, and medium-firm cheese like gruyere",                                
+                type: "Pinot Noir:  America’s most popular grape, people who are matched with Pinot Noir are the center of their social group! This lighter bodied red wine has a higher acidity and a soft, smooth finish. The wine has a complex flavor profile that includes notes of red fruit (cherry, cranberry), red floral (rose), and vegetal notes of beet, rhubarb or mushroom. Pair Pinot Noir with chicken, pork, veal, duck, cured meat, soft cheeses, and medium-firm cheese like gruyere",                                
                 content: "Strongly Disagree"
             },
         ]
@@ -65,7 +65,7 @@ var quizQuestions = [
                 content: "Agree"
             },
             {
-                type: "Pinot Noir:  America’s most popular grape, people who are matched with Pinot Noir re the center of their social group! This lighter bodied red wine has a higher acidity and a soft, smooth finish. The wine has a complex flavor profile that includes notes of red fruit (cherry, cranberry), red floral (rose), and vegetal notes of beet, rhubarb or mushroom. Pair Pinot Noir with chicken, pork, veal, duck, cured meat, soft cheeses, and medium-firm cheese like gruyere",                                
+                type: "Pinot Noir:  America’s most popular grape, people who are matched with Pinot Noir are the center of their social group! This lighter bodied red wine has a higher acidity and a soft, smooth finish. The wine has a complex flavor profile that includes notes of red fruit (cherry, cranberry), red floral (rose), and vegetal notes of beet, rhubarb or mushroom. Pair Pinot Noir with chicken, pork, veal, duck, cured meat, soft cheeses, and medium-firm cheese like gruyere",                                
                 content: "Neutral"
             },
             {
@@ -92,7 +92,7 @@ var quizQuestions = [
                         content: "Agree",
                     },
                     {
-                        type: "Pinot Noir:  America’s most popular grape, people who are matched with Pinot Noir re the center of their social group! This lighter bodied red wine has a higher acidity and a soft, smooth finish. The wine has a complex flavor profile that includes notes of red fruit (cherry, cranberry), red floral (rose), and vegetal notes of beet, rhubarb or mushroom. Pair Pinot Noir with chicken, pork, veal, duck, cured meat, soft cheeses, and medium-firm cheese like gruyere",                                        
+                        type: "Pinot Noir:  America’s most popular grape, people who are matched with Pinot Noir are the center of their social group! This lighter bodied red wine has a higher acidity and a soft, smooth finish. The wine has a complex flavor profile that includes notes of red fruit (cherry, cranberry), red floral (rose), and vegetal notes of beet, rhubarb or mushroom. Pair Pinot Noir with chicken, pork, veal, duck, cured meat, soft cheeses, and medium-firm cheese like gruyere",                                        
                         content: "Neutral"
                     },
                     {
@@ -126,7 +126,7 @@ var quizQuestions = [
                         content: "Disagree"
                     },
                     {
-                        type: "Pinot Noir:  America’s most popular grape, people who are matched with Pinot Noir re the center of their social group! This lighter bodied red wine has a higher acidity and a soft, smooth finish. The wine has a complex flavor profile that includes notes of red fruit (cherry, cranberry), red floral (rose), and vegetal notes of beet, rhubarb or mushroom. Pair Pinot Noir with chicken, pork, veal, duck, cured meat, soft cheeses, and medium-firm cheese like gruyere",                                        
+                        type: "Pinot Noir:  America’s most popular grape, people who are matched with Pinot Noir are the center of their social group! This lighter bodied red wine has a higher acidity and a soft, smooth finish. The wine has a complex flavor profile that includes notes of red fruit (cherry, cranberry), red floral (rose), and vegetal notes of beet, rhubarb or mushroom. Pair Pinot Noir with chicken, pork, veal, duck, cured meat, soft cheeses, and medium-firm cheese like gruyere",                                        
                         content: "Strongly Disagree"
                     },
                 ]
@@ -135,7 +135,7 @@ var quizQuestions = [
                 question: "You enjoy vibrant social events with lots of people.?",
                 answers: [
                     {
-                        type: "Pinot Noir:  America’s most popular grape, people who are matched with Pinot Noir re the center of their social group! This lighter bodied red wine has a higher acidity and a soft, smooth finish. The wine has a complex flavor profile that includes notes of red fruit (cherry, cranberry), red floral (rose), and vegetal notes of beet, rhubarb or mushroom. Pair Pinot Noir with chicken, pork, veal, duck, cured meat, soft cheeses, and medium-firm cheese like gruyere",                                        
+                        type: "Pinot Noir:  America’s most popular grape, people who are matched with Pinot Noir are the center of their social group! This lighter bodied red wine has a higher acidity and a soft, smooth finish. The wine has a complex flavor profile that includes notes of red fruit (cherry, cranberry), red floral (rose), and vegetal notes of beet, rhubarb or mushroom. Pair Pinot Noir with chicken, pork, veal, duck, cured meat, soft cheeses, and medium-firm cheese like gruyere",                                        
                         content: "Strongly Agree",
                         
                     },
@@ -170,7 +170,7 @@ var quizQuestions = [
                         content: "Agree"         
                     },
                     {
-                        type: "Pinot Noir:  America’s most popular grape, people who are matched with Pinot Noir re the center of their social group! This lighter bodied red wine has a higher acidity and a soft, smooth finish. The wine has a complex flavor profile that includes notes of red fruit (cherry, cranberry), red floral (rose), and vegetal notes of beet, rhubarb or mushroom. Pair Pinot Noir with chicken, pork, veal, duck, cured meat, soft cheeses, and medium-firm cheese like gruyere",                                        
+                        type: "Pinot Noir:  America’s most popular grape, people who are matched with Pinot Noir are the center of their social group! This lighter bodied red wine has a higher acidity and a soft, smooth finish. The wine has a complex flavor profile that includes notes of red fruit (cherry, cranberry), red floral (rose), and vegetal notes of beet, rhubarb or mushroom. Pair Pinot Noir with chicken, pork, veal, duck, cured meat, soft cheeses, and medium-firm cheese like gruyere",                                        
                         content: "Neutral"
                     },
                     {
@@ -196,7 +196,7 @@ var quizQuestions = [
                         content: "Agree",
                     },
                     {
-                        type: "Pinot Noir:  America’s most popular grape, people who are matched with Pinot Noir re the center of their social group! This lighter bodied red wine has a higher acidity and a soft, smooth finish. The wine has a complex flavor profile that includes notes of red fruit (cherry, cranberry), red floral (rose), and vegetal notes of beet, rhubarb or mushroom. Pair Pinot Noir with chicken, pork, veal, duck, cured meat, soft cheeses, and medium-firm cheese like gruyere",                                        
+                        type: "Pinot Noir:  America’s most popular grape, people who are matched with Pinot Noir are the center of their social group! This lighter bodied red wine has a higher acidity and a soft, smooth finish. The wine has a complex flavor profile that includes notes of red fruit (cherry, cranberry), red floral (rose), and vegetal notes of beet, rhubarb or mushroom. Pair Pinot Noir with chicken, pork, veal, duck, cured meat, soft cheeses, and medium-firm cheese like gruyere",                                        
                         content: "Neutral"
                     },
                     {

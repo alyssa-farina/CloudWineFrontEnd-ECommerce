@@ -6,7 +6,7 @@ export default function Homepage(props) {
   return (
     <div>
       <div>
-        <Jumbotron className="jumbo-image small-jumbo-image">
+        <Jumbotron className="jumbo-image">
           <h1 className="welcomeheader">Welcome</h1>
           <p className="quizinfo">
            <a className="winequizz" href="/winequiz">Click here to be WINEALYZED</a>

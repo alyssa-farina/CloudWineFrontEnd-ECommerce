@@ -3,7 +3,7 @@ import Cart from '../features/cart';
 import { Link } from 'react-router-dom';
 import { Button, Container, Row, Col } from 'reactstrap';
 import { connect } from 'react-redux';
-import sadBaby from '../crying baby.png';
+import sadBaby from '../emptycart.png';
 import ProductListItem from '../features/product-list/product-list-item';
 
 class CartPage extends React.Component {

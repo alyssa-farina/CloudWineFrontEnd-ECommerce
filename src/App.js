@@ -66,7 +66,7 @@ class App extends Component {
     // Remove the user object from the Redux store
     let b = this.props.logoutUser();
     // console.log(this.props.history);
-    let c = this.props.history.push('/login');
+    let c = this.props.history.push('/');
     window.location.reload();
     return a && b && c;
   };
@@ -85,14 +85,7 @@ class App extends Component {
 
   render() {
  
-  //   let event = {
-  //     title: 'Sip & Whine: A Book Club to Whine About',
-  //     description: 'This event is held for people who love reading, love wine, and love to whine about the books that they have read! The book we are discussing is The Wine Bible. So if you havent already, pick one up and get to reading',
-  //     location: 'New York, NY',
-  //     startTime: '2019-10-26T20:15:00-04:00',
-  //     endTime: '2019-10-26T21:45:00-04:00'
-  // };
-    // console.log(this.state)
+    // console.log(this.state.username)
     return (
       <div>
         
@@ -131,7 +124,7 @@ class App extends Component {
                   </NavLink>
                 ) : (
                   <NavLink tag={RRNavLink} to="/login">
-                    LOGIN/SIGN UP
+                    LOGIN
                   </NavLink>
                 )}
                   
@@ -151,7 +144,7 @@ class App extends Component {
                       </DropdownToggle>
                       <DropdownMenu>
                         <DropdownItem header>
-                          <b>
+                          <b className="welcomeheadername">
                           Welcome, {this.props.currentUser.username}
                           </b>
                         </DropdownItem>

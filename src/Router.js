@@ -14,7 +14,6 @@ import OfferPage from './pages/offerpage';
 import eventspage from './pages/eventspage';
 import aboutpage from './pages/aboutpage';
 
-// import winelocations from './pages/winelocations';
 
 
 const Router = () => (

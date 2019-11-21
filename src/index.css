@@ -72,16 +72,21 @@ body {
   
 
 }
+
 .form-signin{
   text-align: center;
   color: rgb(0, 0, 0);
   background-color: #fffff870;
   width: 550px;
   height: 400px;
+  border-style: double;
+ 
   
 }
 .results {
-  color: white;
+  color: #ffffff;
+  font-size: large;
+  border-color: pink;
 }
 
 code {
@@ -92,15 +97,28 @@ code {
 .product-list-item {
   padding: 20px 30px;
   margin: 10px;
-  width: 345px;
+  width: 348px;
   color: rgb(194, 0, 0);
+  text-align: center;
+  font-size: medium;
   background-image: url("https://static.vecteezy.com/system/resources/previews/000/588/591/non_2x/wine-bottle-wine-glass-tile-pattern-drink-wine-party-background-vector.jpg"); 
 
 
 }
 
+.majorkey {
+  font-size: xx-large;
+  color: red
+}
+
 .text-center{
   color: beige;
+}
+
+.saleprice {
+  background-color: brown;
+  color: white;
+  font-family: monospace;
 }
 
 .checkoutdiv {
@@ -230,6 +248,14 @@ code {
     font-weight: bold;
   }
 
+  /* .productlink {
+    background-color: beige;
+    color: red;
+    font-size: x-large;
+    display: inline-block;
+    
+  } */
+
   .cheers {
     color: black;
     position: absolute;
@@ -319,9 +345,43 @@ code {
     border-radius: 0px;
   }
 
+  .welcomeheadername{
+    background-color: beige;
+    color: red;
+    font-size: medium;
+  }
+
+  .cartbtn {
+    background-color: rgba(147, 0, 34, 0.79);
+    color: rgb(255, 235, 235);
+  }
+
+  .cartbtn:hover{
+    background-color: lightpink;
+    color: navy;
+    font-family: cursive;
+  }
+
+  .detailsbtn{
+    background-color: bisque;
+    color: red;
+  }
+
+  .detailsbtn:hover{
+    background-color: lightsteelblue;
+    color: hotpink;
+    font-family: cursive;
+  }
+  
+
+  .jumbo-image{
+    background-size: cover;
+  }
+
   .welcomecwine {
     color: beige;
     font-family: cursive;
+    left: 500px;
   }
 
   .itemname {
@@ -467,6 +527,10 @@ code {
 
 .inline {
   float: left;
+  font-size: small;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
 }
 
 .left-margin {
