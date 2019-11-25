@@ -20,11 +20,11 @@ export default class eventspage extends Component {
 
     render() {
         let event = {
-            title: 'Champagne Tasting with Blue',
-            description: 'Friday night marks the beginning of the weekend. Celebrate the week by coming to taste a curated list of Champagne with our friend Blue!',
-            location: '40 Hudson Street New York, NY 10013',
-            startTime: '2019-10-25T17:00:00-04:00',
-            endTime: '2019-10-25T20:00:00-04:00'
+            title: 'Wine 101 ',
+            description: 'The Wine 101 class promises, at a minimum, you will taste a dozen unique wines, sample artisanal cheeses from Murrays Cheese, and leave with a keen sense of what makes wines different along with a better understanding of what you like. While that may seem sufficient for two hours, we aim for more. In this, one of our most popular offerings, we hope you will develop a newfound admiration for this incredible product of nature while tasting the differences in body, tannin, and sweetness of wines.',
+            location: 'NYC wine company: 330 West 11th Street, New York, NY 10011',
+            startTime: '2019-11-30T15:00:00-04:00',
+            endTime: '2019-11-30T16:30:00-04:00'
         }
         console.log(this.state.events)
         return  (
