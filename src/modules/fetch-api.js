@@ -5,8 +5,8 @@ export default function fetchApi(method, url, data) {
   return fetch(url, {
     method,
     headers: {
-      Accept: 'application/json',
-      'Content-Type': 'application/json'
+      "Accept": 'application/json',
+      "Content-Type": 'application/json'
     },
     credentials: 'same-origin',
     ...body

@@ -17,10 +17,19 @@ class Order extends React.Component {
       }
     );
   }
+  // componentDidMount() {
+  //   fetch('http://localhost:3000/orders/')
+  //     .then(res => res.json())
+  //     .then(json => {
+  //       this.setState({
+  //         order: json
+  //       })
+  //     })
+  // }
 
   renderOrder() {
-    const { order } = this.state;
-    // console.log(order);
+    const { order } = this.state.order;
+    console.log(order);
     return (
       <Container>
         <Row>
