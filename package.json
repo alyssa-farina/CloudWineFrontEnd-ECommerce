@@ -10,7 +10,6 @@
     "es6-promise": "^4.2.8",
     "isomorphic-fetch": "^2.2.1",
     "kind-of": "^6.0.3",
-    "minimist": "^1.2.5",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
