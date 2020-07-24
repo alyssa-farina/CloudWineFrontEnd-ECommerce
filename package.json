@@ -15,7 +15,7 @@
     "react": "^16.13.1",
     "react-add-to-calendar": "^0.1.5",
     "react-addons-css-transition-group": "^15.6.2",
-    "react-devtools": "^4.7.0",
+    "react-devtools": "^4.8.2",
     "react-dom": "^16.13.1",
     "react-event-calendar": "^0.3.0",
     "react-icons": "^3.10.0",
